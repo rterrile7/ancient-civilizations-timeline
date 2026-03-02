@@ -1,0 +1,3735 @@
+{
+  "civilizations": [
+    {
+      "name": "Early Dynastic Egypt",
+      "period": {
+        "start": {
+          "year": -3150,
+          "confidence": "high",
+          "note": "Unification under Narmer"
+        },
+        "end": {
+          "year": -2686,
+          "confidence": "high",
+          "note": "Beginning of Old Kingdom"
+        }
+      },
+      "location": {
+        "region": "Nile River Valley",
+        "modern": "Egypt"
+      },
+      "key_developments": [
+        {
+          "year": -3150,
+          "confidence": "high",
+          "event": "First dynasty established",
+          "significance": "Unification of Upper and Lower Egypt"
+        },
+        {
+          "year": -3000,
+          "confidence": "medium",
+          "event": "Development of hieroglyphic writing",
+          "significance": "First complete writing system in Egypt"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Ancient Egypt (Old Kingdom)",
+          "type": "succession",
+          "details": "Direct cultural and political predecessor"
+        },
+        {
+          "civilization": "Kingdom of Kush",
+          "type": "trade",
+          "details": "Early trade routes established"
+        }
+      ],
+      "region": "Egypt & North Africa"
+    },
+    {
+      "name": "Sumer",
+      "period": {
+        "start": {
+          "year": -4500,
+          "confidence": "medium",
+          "note": "Earliest settlements in Southern Mesopotamia"
+        },
+        "end": {
+          "year": -1750,
+          "confidence": "high",
+          "note": "Conquered by Hammurabi of Babylon"
+        }
+      },
+      "location": {
+        "region": "Southern Mesopotamia",
+        "modern": "Southern Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -3200,
+          "confidence": "high",
+          "event": "Development of cuneiform writing",
+          "significance": "First known writing system"
+        },
+        {
+          "year": -3000,
+          "confidence": "medium",
+          "event": "Rise of city-states",
+          "significance": "First urban civilization"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Akkadian Empire",
+          "type": "cultural_absorption",
+          "details": "Akkadians adopted and modified Sumerian cuneiform"
+        },
+        {
+          "civilization": "Babylonian Empire",
+          "type": "succession",
+          "details": "Inherited Sumerian culture and traditions"
+        },
+        {
+          "civilization": "Elam",
+          "type": "trade",
+          "details": "Major trading partner via the Persian Gulf"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Ancient Egypt (Old Kingdom)",
+      "period": {
+        "start": {
+          "year": -2686,
+          "confidence": "high",
+          "note": "Beginning of Third Dynasty"
+        },
+        "end": {
+          "year": -2181,
+          "confidence": "high",
+          "note": "End of 6th Dynasty"
+        }
+      },
+      "location": {
+        "region": "Nile River Valley",
+        "modern": "Egypt"
+      },
+      "key_developments": [
+        {
+          "year": -2650,
+          "confidence": "high",
+          "event": "Beginning of Pyramid Age",
+          "significance": "Great Pyramid of Giza construction begins"
+        },
+        {
+          "year": -2600,
+          "confidence": "medium",
+          "event": "Expansion of trade networks",
+          "significance": "Extended reach into Nubia and Levant"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Minoan Civilization",
+          "type": "trade",
+          "details": "Maritime trade routes established"
+        },
+        {
+          "civilization": "Kingdom of Kush",
+          "type": "trade",
+          "details": "Important source of gold and exotic goods"
+        }
+      ],
+      "region": "Egypt & North Africa"
+    },
+    {
+      "name": "Indus Valley Civilization",
+      "period": {
+        "start": {
+          "year": -3300,
+          "confidence": "medium",
+          "note": "Early Harappan Period begins"
+        },
+        "end": {
+          "year": -1300,
+          "confidence": "medium",
+          "note": "Final decline of urban centers"
+        }
+      },
+      "location": {
+        "region": "Indus River Valley",
+        "modern": "Pakistan and parts of India"
+      },
+      "key_developments": [
+        {
+          "year": -2600,
+          "confidence": "high",
+          "event": "Urban planning begins at Mohenjo-daro",
+          "significance": "Grid system and advanced drainage"
+        },
+        {
+          "year": -2500,
+          "confidence": "medium",
+          "event": "Development of Indus script",
+          "significance": "Still undeciphered writing system"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Sumer",
+          "type": "trade",
+          "details": "Evidence of extensive trade networks"
+        },
+        {
+          "civilization": "Elam",
+          "type": "trade",
+          "details": "Trade routes through Iranian plateau"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Elam",
+      "period": {
+        "start": {
+          "year": -3200,
+          "confidence": "medium",
+          "note": "Proto-Elamite period begins"
+        },
+        "end": {
+          "year": -1100,
+          "confidence": "medium",
+          "note": "Middle Elamite period ends"
+        }
+      },
+      "location": {
+        "region": "Iranian Plateau",
+        "modern": "Iran"
+      },
+      "key_developments": [
+        {
+          "year": -3000,
+          "confidence": "medium",
+          "event": "Development of Proto-Elamite script",
+          "significance": "Independent writing system"
+        },
+        {
+          "year": -2700,
+          "confidence": "medium",
+          "event": "Rise of Susa as major city",
+          "significance": "Important trading center"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Sumer",
+          "type": "cultural_exchange",
+          "details": "Adopted elements of Sumerian writing"
+        },
+        {
+          "civilization": "Indus Valley Civilization",
+          "type": "trade",
+          "details": "Important intermediary in east-west trade"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Akkadian Empire",
+      "period": {
+        "start": {
+          "year": -2334,
+          "confidence": "high",
+          "note": "Sargon of Akkad's rise to power"
+        },
+        "end": {
+          "year": -2154,
+          "confidence": "medium",
+          "note": "Collapse due to multiple factors"
+        }
+      },
+      "location": {
+        "region": "Mesopotamia",
+        "modern": "Iraq and Syria"
+      },
+      "key_developments": [
+        {
+          "year": -2334,
+          "confidence": "high",
+          "event": "First empire in history",
+          "significance": "Unified Mesopotamia under central rule"
+        },
+        {
+          "year": -2300,
+          "confidence": "medium",
+          "event": "Development of Akkadian language",
+          "significance": "First Semitic empire"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Sumer",
+          "type": "conquest",
+          "details": "Unified Sumerian city-states"
+        },
+        {
+          "civilization": "Assyrian Empire",
+          "type": "cultural_inheritance",
+          "details": "Assyrians adopted Akkadian language and customs"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Assyrian Empire (Old)",
+      "period": {
+        "start": {
+          "year": -2025,
+          "confidence": "medium",
+          "note": "Rise of independent Assyrian state"
+        },
+        "end": {
+          "year": -1750,
+          "confidence": "high",
+          "note": "Conquered by Hammurabi"
+        }
+      },
+      "location": {
+        "region": "Northern Mesopotamia",
+        "modern": "Northern Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -1950,
+          "confidence": "medium",
+          "event": "Establishment of trading colonies",
+          "significance": "Extended commercial network into Anatolia"
+        },
+        {
+          "year": -1900,
+          "confidence": "high",
+          "event": "Development of legal codes",
+          "significance": "Important influence on later law systems"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Akkadian Empire",
+          "type": "cultural_inheritance",
+          "details": "Inherited imperial administration systems"
+        },
+        {
+          "civilization": "Hittite Empire",
+          "type": "trade",
+          "details": "Extensive trading network in Anatolia"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Minoan Civilization",
+      "period": {
+        "start": {
+          "year": -3200,
+          "confidence": "medium",
+          "note": "Early Bronze Age settlements"
+        },
+        "end": {
+          "year": -1100,
+          "confidence": "medium",
+          "note": "Final palace decline"
+        }
+      },
+      "location": {
+        "region": "Crete",
+        "modern": "Greece"
+      },
+      "key_developments": [
+        {
+          "year": -2000,
+          "confidence": "high",
+          "event": "First palaces built",
+          "significance": "Beginning of palace civilization"
+        },
+        {
+          "year": -1900,
+          "confidence": "medium",
+          "event": "Linear A script developed",
+          "significance": "First Minoan writing system"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Ancient Egypt",
+          "type": "trade",
+          "details": "Maritime trade and cultural exchange"
+        },
+        {
+          "civilization": "Hittite Empire",
+          "type": "trade",
+          "details": "Trade routes through Anatolia"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Babylonian Empire (Old)",
+      "period": {
+        "start": {
+          "year": -1894,
+          "confidence": "high",
+          "note": "Founding by Sumuabum"
+        },
+        "end": {
+          "year": -1595,
+          "confidence": "high",
+          "note": "Hittite sack of Babylon"
+        }
+      },
+      "location": {
+        "region": "Central Mesopotamia",
+        "modern": "Central Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -1750,
+          "confidence": "high",
+          "event": "Code of Hammurabi",
+          "significance": "First major legal code"
+        },
+        {
+          "year": -1800,
+          "confidence": "medium",
+          "event": "Mathematical advances",
+          "significance": "Development of sexagesimal system"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Sumer",
+          "type": "cultural_inheritance",
+          "details": "Adopted and preserved Sumerian culture"
+        },
+        {
+          "civilization": "Hittite Empire",
+          "type": "conflict",
+          "details": "Eventually conquered by the Hittites"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Hittite Empire",
+      "period": {
+        "start": {
+          "year": -1650,
+          "confidence": "medium",
+          "note": "Formation of Old Kingdom"
+        },
+        "end": {
+          "year": -1180,
+          "confidence": "high",
+          "note": "Collapse of empire"
+        }
+      },
+      "location": {
+        "region": "Anatolia",
+        "modern": "Turkey"
+      },
+      "key_developments": [
+        {
+          "year": -1595,
+          "confidence": "high",
+          "event": "Sack of Babylon",
+          "significance": "End of Old Babylonian Empire"
+        },
+        {
+          "year": -1500,
+          "confidence": "medium",
+          "event": "Iron working technology",
+          "significance": "Early adoption of iron weapons"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Babylonian Empire",
+          "type": "conquest",
+          "details": "Conquered and sacked Babylon"
+        },
+        {
+          "civilization": "Minoan Civilization",
+          "type": "trade",
+          "details": "Trade routes through Anatolia"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Kingdom of Kush",
+      "period": {
+        "start": {
+          "year": -2500,
+          "confidence": "medium",
+          "note": "Early Kerma culture"
+        },
+        "end": {
+          "year": -1070,
+          "confidence": "medium",
+          "note": "Decline of New Kingdom influence"
+        }
+      },
+      "location": {
+        "region": "Nubia",
+        "modern": "Sudan"
+      },
+      "key_developments": [
+        {
+          "year": -2200,
+          "confidence": "medium",
+          "event": "Rise of Kerma",
+          "significance": "Major trading center"
+        },
+        {
+          "year": -1700,
+          "confidence": "medium",
+          "event": "Height of power",
+          "significance": "Control of gold resources"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Early Dynastic Egypt",
+          "type": "trade",
+          "details": "Supplied gold and exotic goods"
+        },
+        {
+          "civilization": "Ancient Egypt (Old Kingdom)",
+          "type": "trade",
+          "details": "Continued trade relationships"
+        }
+      ],
+      "region": "Africa & Horn"
+    },
+    {
+      "name": "Early Zhou Dynasty",
+      "period": {
+        "start": {
+          "year": -1046,
+          "confidence": "high",
+          "note": "Overthrow of Shang Dynasty"
+        },
+        "end": {
+          "year": -771,
+          "confidence": "high",
+          "note": "End of Western Zhou"
+        }
+      },
+      "location": {
+        "region": "Yellow River Valley",
+        "modern": "China"
+      },
+      "key_developments": [
+        {
+          "year": -1046,
+          "confidence": "high",
+          "event": "Establishment of dynasty",
+          "significance": "Beginning of Zhou cultural period"
+        },
+        {
+          "year": -1000,
+          "confidence": "medium",
+          "event": "Development of Chinese writing",
+          "significance": "Standardization of script"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Indus Valley Civilization",
+          "type": "trade",
+          "details": "Indirect trade through intermediate cultures"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Phoenician Civilization",
+      "period": {
+        "start": {
+          "year": -1500,
+          "confidence": "medium",
+          "note": "Rise of major coastal cities"
+        },
+        "end": {
+          "year": -300,
+          "confidence": "high",
+          "note": "Hellenistic period dominance"
+        }
+      },
+      "location": {
+        "region": "Levantine Coast",
+        "modern": "Lebanon, Syria, Israel"
+      },
+      "key_developments": [
+        {
+          "year": -1050,
+          "confidence": "high",
+          "event": "Development of Phoenician alphabet",
+          "significance": "First widely-adopted alphabetic writing system"
+        },
+        {
+          "year": -900,
+          "confidence": "high",
+          "event": "Establishment of Mediterranean colonies",
+          "significance": "Extended maritime trade network"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "trade",
+          "details": "Major trading partner for timber and purple dye"
+        },
+        {
+          "civilization": "Minoan Civilization",
+          "type": "trade",
+          "details": "Maritime trade and cultural exchange"
+        }
+      ],
+      "region": "Levant & Arabia"
+    },
+    {
+      "name": "Mycenaean Greece",
+      "period": {
+        "start": {
+          "year": -1600,
+          "confidence": "medium",
+          "note": "Rise of palace culture"
+        },
+        "end": {
+          "year": -1100,
+          "confidence": "medium",
+          "note": "Collapse of palace system"
+        }
+      },
+      "location": {
+        "region": "Greek Mainland",
+        "modern": "Greece"
+      },
+      "key_developments": [
+        {
+          "year": -1450,
+          "confidence": "high",
+          "event": "Adoption of Linear B script",
+          "significance": "First writing system for Greek language"
+        },
+        {
+          "year": -1300,
+          "confidence": "medium",
+          "event": "Peak of palace civilization",
+          "significance": "Complex administrative systems"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Minoan Civilization",
+          "type": "cultural_absorption",
+          "details": "Adopted and modified Minoan culture"
+        },
+        {
+          "civilization": "Hittite Empire",
+          "type": "trade",
+          "details": "Extensive trade in metals and luxury goods"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Mittani Empire",
+      "period": {
+        "start": {
+          "year": -1500,
+          "confidence": "medium",
+          "note": "Formation of kingdom"
+        },
+        "end": {
+          "year": -1300,
+          "confidence": "medium",
+          "note": "Conquered by Assyrians and Hittites"
+        }
+      },
+      "location": {
+        "region": "Northern Mesopotamia",
+        "modern": "Northern Syria, Northern Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -1450,
+          "confidence": "medium",
+          "event": "Peak of diplomatic influence",
+          "significance": "Marriage alliances with Egypt and diplomatic ties with Hittites"
+        },
+        {
+          "year": -1400,
+          "confidence": "medium",
+          "event": "Development of horse training techniques",
+          "significance": "Advanced cavalry and chariot warfare"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "conflict",
+          "details": "Territorial disputes and eventual conquest"
+        },
+        {
+          "civilization": "Assyrian Empire (Old)",
+          "type": "succession",
+          "details": "Occupied former Assyrian territories"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Middle Assyrian Empire",
+      "period": {
+        "start": {
+          "year": -1392,
+          "confidence": "high",
+          "note": "Rise of Ashur-uballit I"
+        },
+        "end": {
+          "year": -934,
+          "confidence": "high",
+          "note": "End of Tiglath-Pileser I's dynasty"
+        }
+      },
+      "location": {
+        "region": "Northern Mesopotamia",
+        "modern": "Northern Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -1360,
+          "confidence": "high",
+          "event": "Expansion under Ashur-uballit I",
+          "significance": "Transformation into major power"
+        },
+        {
+          "year": -1274,
+          "confidence": "high",
+          "event": "Battle of Kadesh involvement",
+          "significance": "Major conflict between Hittites and Egyptians"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "conflict",
+          "details": "Competition for control of Northern Syria"
+        },
+        {
+          "civilization": "Kassite Babylon",
+          "type": "cultural_exchange",
+          "details": "Diplomatic marriages and trade relations"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Kassite Babylon",
+      "period": {
+        "start": {
+          "year": -1595,
+          "confidence": "high",
+          "note": "Kassite takeover after Hittite sack"
+        },
+        "end": {
+          "year": -1155,
+          "confidence": "medium",
+          "note": "Elamite invasion ends dynasty"
+        }
+      },
+      "location": {
+        "region": "Central Mesopotamia",
+        "modern": "Central Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -1500,
+          "confidence": "medium",
+          "event": "Restoration of Babylon",
+          "significance": "Rebuilding after Hittite destruction"
+        },
+        {
+          "year": -1350,
+          "confidence": "high",
+          "event": "International diplomatic period",
+          "significance": "Exchange of letters with Egypt and other powers"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Babylonian Empire (Old)",
+          "type": "succession",
+          "details": "Inherited and preserved Babylonian culture"
+        },
+        {
+          "civilization": "Middle Assyrian Empire",
+          "type": "cultural_exchange",
+          "details": "Diplomatic relations and cultural sharing"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "New Kingdom Egypt",
+      "period": {
+        "start": {
+          "year": -1550,
+          "confidence": "high",
+          "note": "Expulsion of Hyksos"
+        },
+        "end": {
+          "year": -1070,
+          "confidence": "high",
+          "note": "End of 20th Dynasty"
+        }
+      },
+      "location": {
+        "region": "Nile River Valley",
+        "modern": "Egypt"
+      },
+      "key_developments": [
+        {
+          "year": -1470,
+          "confidence": "high",
+          "event": "Conquests of Thutmose III",
+          "significance": "Creation of Egyptian Empire"
+        },
+        {
+          "year": -1353,
+          "confidence": "high",
+          "event": "Akhenaten's religious reforms",
+          "significance": "Brief period of monotheism"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "conflict",
+          "details": "Battle of Kadesh and subsequent peace treaty"
+        },
+        {
+          "civilization": "Mittani Empire",
+          "type": "cultural_exchange",
+          "details": "Diplomatic marriages and alliances"
+        },
+        {
+          "civilization": "Kingdom of Kush",
+          "type": "conquest",
+          "details": "Egyptian control of Nubia"
+        }
+      ],
+      "region": "Egypt & North Africa"
+    },
+    {
+      "name": "Shang Dynasty China",
+      "period": {
+        "start": {
+          "year": -1600,
+          "confidence": "medium",
+          "note": "Traditional founding date"
+        },
+        "end": {
+          "year": -1046,
+          "confidence": "high",
+          "note": "Overthrown by Zhou Dynasty"
+        }
+      },
+      "location": {
+        "region": "Yellow River Valley",
+        "modern": "Northern China"
+      },
+      "key_developments": [
+        {
+          "year": -1400,
+          "confidence": "high",
+          "event": "Oracle bone script developed",
+          "significance": "Earliest confirmed Chinese writing"
+        },
+        {
+          "year": -1200,
+          "confidence": "medium",
+          "event": "Bronze casting mastery",
+          "significance": "Sophisticated ritual bronzeware"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Early Zhou Dynasty",
+          "type": "succession",
+          "details": "Zhou overthrew Shang, absorbed culture"
+        },
+        {
+          "civilization": "Indus Valley Civilization",
+          "type": "trade",
+          "details": "Indirect contact via Central Asian routes"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Neo-Assyrian Empire",
+      "period": {
+        "start": {
+          "year": -934,
+          "confidence": "high",
+          "note": "Ashur-dan II restores Assyrian power"
+        },
+        "end": {
+          "year": -609,
+          "confidence": "high",
+          "note": "Fall of Nineveh to Babylonians and Medes"
+        }
+      },
+      "location": {
+        "region": "Northern Mesopotamia",
+        "modern": "Iraq, Syria, Turkey"
+      },
+      "key_developments": [
+        {
+          "year": -745,
+          "confidence": "high",
+          "event": "Tiglath-Pileser III reforms army",
+          "significance": "First professional standing army"
+        },
+        {
+          "year": -668,
+          "confidence": "high",
+          "event": "Library of Ashurbanipal established",
+          "significance": "First systematically organized library"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Middle Assyrian Empire",
+          "type": "succession",
+          "details": "Direct political and cultural heir"
+        },
+        {
+          "civilization": "Neo-Babylonian Empire",
+          "type": "conflict",
+          "details": "Babylonians helped destroy Assyrian Empire"
+        },
+        {
+          "civilization": "New Kingdom Egypt",
+          "type": "conflict",
+          "details": "Assyria invaded and briefly controlled Egypt"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Kingdom of Israel",
+      "period": {
+        "start": {
+          "year": -1047,
+          "confidence": "medium",
+          "note": "Saul anointed first king"
+        },
+        "end": {
+          "year": -722,
+          "confidence": "high",
+          "note": "Northern kingdom conquered by Assyria"
+        }
+      },
+      "location": {
+        "region": "Levant",
+        "modern": "Israel and Palestine"
+      },
+      "key_developments": [
+        {
+          "year": -970,
+          "confidence": "medium",
+          "event": "Solomon's Temple built",
+          "significance": "Central religious monument of Judaism"
+        },
+        {
+          "year": -930,
+          "confidence": "high",
+          "event": "Kingdom splits in two",
+          "significance": "Israel (north) and Judah (south) divide"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "trade",
+          "details": "Hiram of Tyre supplied timber for Solomon's Temple"
+        },
+        {
+          "civilization": "New Kingdom Egypt",
+          "type": "cultural_exchange",
+          "details": "Egyptian cultural influence on early Israelite culture"
+        },
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Assyria destroyed the northern Kingdom of Israel"
+        }
+      ],
+      "region": "Levant & Arabia"
+    },
+    {
+      "name": "Urartu Kingdom",
+      "period": {
+        "start": {
+          "year": -860,
+          "confidence": "medium",
+          "note": "Consolidation under Aramu"
+        },
+        "end": {
+          "year": -590,
+          "confidence": "medium",
+          "note": "Destroyed by Medes and Scythians"
+        }
+      },
+      "location": {
+        "region": "Armenian Highlands",
+        "modern": "Eastern Turkey, Armenia, Iran"
+      },
+      "key_developments": [
+        {
+          "year": -800,
+          "confidence": "medium",
+          "event": "Construction of Lake Van citadel",
+          "significance": "Major military stronghold"
+        },
+        {
+          "year": -750,
+          "confidence": "medium",
+          "event": "Iron working and irrigation advances",
+          "significance": "Agricultural and military expansion"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Rival power; frequent wars with Assyria"
+        },
+        {
+          "civilization": "Hittite Empire",
+          "type": "cultural_exchange",
+          "details": "Inherited cultural elements from former Hittite lands"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Vedic India",
+      "period": {
+        "start": {
+          "year": -1500,
+          "confidence": "medium",
+          "note": "Arrival of Indo-Aryan peoples"
+        },
+        "end": {
+          "year": -500,
+          "confidence": "medium",
+          "note": "End of Vedic period; rise of new kingdoms"
+        }
+      },
+      "location": {
+        "region": "Indian Subcontinent",
+        "modern": "India and Pakistan"
+      },
+      "key_developments": [
+        {
+          "year": -1200,
+          "confidence": "medium",
+          "event": "Rigveda composed",
+          "significance": "Oldest known Sanskrit literature"
+        },
+        {
+          "year": -800,
+          "confidence": "medium",
+          "event": "Iron Age begins in India",
+          "significance": "Expansion of agriculture and urbanization"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Indus Valley Civilization",
+          "type": "succession",
+          "details": "Settled former Indus Valley region"
+        },
+        {
+          "civilization": "Elam",
+          "type": "trade",
+          "details": "Trade contacts across Iranian plateau"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Olmec Civilization",
+      "period": {
+        "start": {
+          "year": -1500,
+          "confidence": "medium",
+          "note": "Rise of San Lorenzo"
+        },
+        "end": {
+          "year": -400,
+          "confidence": "medium",
+          "note": "Decline of La Venta"
+        }
+      },
+      "location": {
+        "region": "Gulf Coast Lowlands",
+        "modern": "Southern Mexico"
+      },
+      "key_developments": [
+        {
+          "year": -1200,
+          "confidence": "high",
+          "event": "San Lorenzo flourishes",
+          "significance": "First major Mesoamerican urban center"
+        },
+        {
+          "year": -900,
+          "confidence": "medium",
+          "event": "Colossal head sculptures carved",
+          "significance": "Iconic monumental art tradition"
+        }
+      ],
+      "connections": [],
+      "region": "Americas"
+    },
+    {
+      "name": "Lydian Kingdom",
+      "period": {
+        "start": {
+          "year": -1200,
+          "confidence": "low",
+          "note": "Early Lydian settlements"
+        },
+        "end": {
+          "year": -546,
+          "confidence": "high",
+          "note": "Conquered by Persia under Cyrus"
+        }
+      },
+      "location": {
+        "region": "Western Anatolia",
+        "modern": "Western Turkey"
+      },
+      "key_developments": [
+        {
+          "year": -610,
+          "confidence": "high",
+          "event": "First coinage invented",
+          "significance": "Revolutionized trade and commerce"
+        },
+        {
+          "year": -560,
+          "confidence": "high",
+          "event": "Croesus becomes king",
+          "significance": "Legendary wealth; allied with Greeks"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "cultural_inheritance",
+          "details": "Rose in former Hittite Anatolian territory"
+        },
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "trade",
+          "details": "Major trading partner in eastern Mediterranean"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Neo-Babylonian Empire",
+      "period": {
+        "start": {
+          "year": -626,
+          "confidence": "high",
+          "note": "Nabopolassar founds dynasty"
+        },
+        "end": {
+          "year": -539,
+          "confidence": "high",
+          "note": "Conquered by Cyrus the Great"
+        }
+      },
+      "location": {
+        "region": "Southern Mesopotamia",
+        "modern": "Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -605,
+          "confidence": "high",
+          "event": "Nebuchadnezzar II begins reign",
+          "significance": "Greatest Neo-Babylonian king; rebuilt Babylon"
+        },
+        {
+          "year": -587,
+          "confidence": "high",
+          "event": "Destruction of Jerusalem",
+          "significance": "Babylonian exile of Jewish people"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Kassite Babylon",
+          "type": "cultural_inheritance",
+          "details": "Revived and expanded Babylonian cultural traditions"
+        },
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Allied with Medes to destroy Assyrian Empire"
+        },
+        {
+          "civilization": "Kingdom of Israel",
+          "type": "conquest",
+          "details": "Destroyed Jerusalem and exiled Judeans"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Median Empire",
+      "period": {
+        "start": {
+          "year": -678,
+          "confidence": "medium",
+          "note": "Deioces unifies Median tribes"
+        },
+        "end": {
+          "year": -549,
+          "confidence": "high",
+          "note": "Conquered by Cyrus the Great"
+        }
+      },
+      "location": {
+        "region": "Iranian Plateau",
+        "modern": "Northwestern Iran"
+      },
+      "key_developments": [
+        {
+          "year": -614,
+          "confidence": "high",
+          "event": "Medes sack Ashur",
+          "significance": "Major blow to Assyrian Empire"
+        },
+        {
+          "year": -585,
+          "confidence": "medium",
+          "event": "Battle of Halys with Lydia",
+          "significance": "Eclipse ended battle; led to peace treaty"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Helped destroy the Assyrian Empire"
+        },
+        {
+          "civilization": "Urartu Kingdom",
+          "type": "conquest",
+          "details": "Absorbed Urartu into Median territory"
+        },
+        {
+          "civilization": "Lydian Kingdom",
+          "type": "cultural_exchange",
+          "details": "Peace treaty after Battle of Halys"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Etruscan Civilization",
+      "period": {
+        "start": {
+          "year": -900,
+          "confidence": "medium",
+          "note": "Villanovan culture transitions to Etruscan"
+        },
+        "end": {
+          "year": -264,
+          "confidence": "high",
+          "note": "Final absorption into Roman Republic"
+        }
+      },
+      "location": {
+        "region": "Italian Peninsula",
+        "modern": "Central Italy"
+      },
+      "key_developments": [
+        {
+          "year": -700,
+          "confidence": "medium",
+          "event": "Etruscan city-states flourish",
+          "significance": "First urban civilization in Italy"
+        },
+        {
+          "year": -600,
+          "confidence": "high",
+          "event": "Etruscan kings rule Rome",
+          "significance": "Major cultural influence on early Rome"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "trade",
+          "details": "Active Mediterranean trade partners"
+        },
+        {
+          "civilization": "Minoan Civilization",
+          "type": "cultural_exchange",
+          "details": "Shared artistic traditions via Aegean contacts"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Early Roman Kingdom",
+      "period": {
+        "start": {
+          "year": -753,
+          "confidence": "low",
+          "note": "Traditional founding by Romulus"
+        },
+        "end": {
+          "year": -509,
+          "confidence": "medium",
+          "note": "Expulsion of last Etruscan king"
+        }
+      },
+      "location": {
+        "region": "Italian Peninsula",
+        "modern": "Central Italy"
+      },
+      "key_developments": [
+        {
+          "year": -715,
+          "confidence": "low",
+          "event": "Numa Pompilius establishes religion",
+          "significance": "Foundation of Roman religious institutions"
+        },
+        {
+          "year": -600,
+          "confidence": "medium",
+          "event": "Rome under Etruscan kings",
+          "significance": "Urban development and monumental building"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Etruscan Civilization",
+          "type": "cultural_absorption",
+          "details": "Etruscans ruled Rome and shaped its early culture"
+        },
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "trade",
+          "details": "Early Mediterranean trade contacts"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Phrygian Kingdom",
+      "period": {
+        "start": {
+          "year": -1200,
+          "confidence": "medium",
+          "note": "Migration into Anatolia after Bronze Age collapse"
+        },
+        "end": {
+          "year": -700,
+          "confidence": "medium",
+          "note": "Destroyed by Cimmerian invasions"
+        }
+      },
+      "location": {
+        "region": "Central Anatolia",
+        "modern": "Central Turkey"
+      },
+      "key_developments": [
+        {
+          "year": -900,
+          "confidence": "medium",
+          "event": "King Midas rules Phrygia",
+          "significance": "Legendary wealth; historical figure behind the myth"
+        },
+        {
+          "year": -800,
+          "confidence": "medium",
+          "event": "Phrygian cultural peak",
+          "significance": "Major influence on Greek and Lydian cultures"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "cultural_inheritance",
+          "details": "Settled in former Hittite territories"
+        },
+        {
+          "civilization": "Lydian Kingdom",
+          "type": "cultural_exchange",
+          "details": "Neighboring kingdoms with shared cultural influence"
+        },
+        {
+          "civilization": "Mycenaean Greece",
+          "type": "trade",
+          "details": "Trade contacts during late Bronze Age"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Achaemenid Persian Empire",
+      "period": {
+        "start": {
+          "year": -550,
+          "confidence": "high",
+          "note": "Cyrus the Great unifies Persia"
+        },
+        "end": {
+          "year": -330,
+          "confidence": "high",
+          "note": "Alexander the Great conquers Persia"
+        }
+      },
+      "location": {
+        "region": "Iranian Plateau and Middle East",
+        "modern": "Iran, Iraq, Turkey, Egypt"
+      },
+      "key_developments": [
+        {
+          "year": -539,
+          "confidence": "high",
+          "event": "Cyrus conquers Babylon",
+          "significance": "Largest empire in ancient history to that point"
+        },
+        {
+          "year": -490,
+          "confidence": "high",
+          "event": "Persian Wars with Greece",
+          "significance": "Battles of Marathon and Thermopylae"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Median Empire",
+          "type": "succession",
+          "details": "Cyrus overthrew the Medes and absorbed their empire"
+        },
+        {
+          "civilization": "Neo-Babylonian Empire",
+          "type": "conquest",
+          "details": "Cyrus conquered Babylon in 539 BCE"
+        },
+        {
+          "civilization": "Lydian Kingdom",
+          "type": "conquest",
+          "details": "Conquered Lydia under Cyrus"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Classical Greece (City-States)",
+      "period": {
+        "start": {
+          "year": -800,
+          "confidence": "medium",
+          "note": "Rise of Greek poleis"
+        },
+        "end": {
+          "year": -323,
+          "confidence": "high",
+          "note": "Death of Alexander; Hellenistic age begins"
+        }
+      },
+      "location": {
+        "region": "Greek Peninsula and Aegean",
+        "modern": "Greece and Western Turkey"
+      },
+      "key_developments": [
+        {
+          "year": -508,
+          "confidence": "high",
+          "event": "Athenian democracy founded",
+          "significance": "First democratic government in history"
+        },
+        {
+          "year": -447,
+          "confidence": "high",
+          "event": "Parthenon constructed",
+          "significance": "Peak of Athenian cultural achievement"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Mycenaean Greece",
+          "type": "cultural_inheritance",
+          "details": "Inherited Mycenaean myths, language, and traditions"
+        },
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "cultural_exchange",
+          "details": "Adopted Phoenician alphabet"
+        },
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "conflict",
+          "details": "Persian Wars defined classical Greek identity"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Carthaginian Empire",
+      "period": {
+        "start": {
+          "year": -814,
+          "confidence": "medium",
+          "note": "Traditional founding by Phoenician settlers"
+        },
+        "end": {
+          "year": -146,
+          "confidence": "high",
+          "note": "Destroyed by Rome in Third Punic War"
+        }
+      },
+      "location": {
+        "region": "North Africa and Western Mediterranean",
+        "modern": "Tunisia, Spain, Sicily"
+      },
+      "key_developments": [
+        {
+          "year": -600,
+          "confidence": "medium",
+          "event": "Carthage becomes dominant Mediterranean power",
+          "significance": "Controls western Mediterranean trade"
+        },
+        {
+          "year": -218,
+          "confidence": "high",
+          "event": "Hannibal crosses the Alps",
+          "significance": "Nearly defeated Rome in Second Punic War"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "cultural_inheritance",
+          "details": "Founded as Phoenician colony; preserved Phoenician culture"
+        },
+        {
+          "civilization": "Early Roman Kingdom",
+          "type": "conflict",
+          "details": "Three Punic Wars ultimately destroyed Carthage"
+        },
+        {
+          "civilization": "Etruscan Civilization",
+          "type": "trade",
+          "details": "Trading partners in western Mediterranean"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Zapotec Civilization",
+      "period": {
+        "start": {
+          "year": -700,
+          "confidence": "medium",
+          "note": "Rise of Monte Alb\u00e1n"
+        },
+        "end": {
+          "year": 700,
+          "confidence": "medium",
+          "note": "Decline of Monte Alb\u00e1n"
+        }
+      },
+      "location": {
+        "region": "Oaxaca Valley",
+        "modern": "Southern Mexico"
+      },
+      "key_developments": [
+        {
+          "year": -500,
+          "confidence": "medium",
+          "event": "Monte Alb\u00e1n founded",
+          "significance": "First city in Mesoamerica"
+        },
+        {
+          "year": -400,
+          "confidence": "medium",
+          "event": "Zapotec writing system",
+          "significance": "One of earliest writing systems in Americas"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Olmec Civilization",
+          "type": "cultural_exchange",
+          "details": "Influenced by Olmec artistic and religious traditions"
+        }
+      ],
+      "region": "Americas"
+    },
+    {
+      "name": "Zhou Dynasty (Eastern)",
+      "period": {
+        "start": {
+          "year": -771,
+          "confidence": "high",
+          "note": "Capital moved east after nomad invasion"
+        },
+        "end": {
+          "year": -221,
+          "confidence": "high",
+          "note": "Qin unifies China"
+        }
+      },
+      "location": {
+        "region": "Yellow and Yangtze River Valleys",
+        "modern": "China"
+      },
+      "key_developments": [
+        {
+          "year": -551,
+          "confidence": "high",
+          "event": "Confucius born",
+          "significance": "Most influential Chinese philosopher"
+        },
+        {
+          "year": -400,
+          "confidence": "high",
+          "event": "Iron tools widespread in China",
+          "significance": "Agricultural revolution; population growth"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Early Zhou Dynasty",
+          "type": "succession",
+          "details": "Continuation of Zhou dynasty after capital moved east"
+        },
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "trade",
+          "details": "Early Silk Road precursor contacts"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Scythian Kingdom",
+      "period": {
+        "start": {
+          "year": -900,
+          "confidence": "medium",
+          "note": "Scythians emerge on Pontic Steppe"
+        },
+        "end": {
+          "year": -200,
+          "confidence": "medium",
+          "note": "Displaced by Sarmatians"
+        }
+      },
+      "location": {
+        "region": "Pontic-Caspian Steppe",
+        "modern": "Ukraine, Russia, Kazakhstan"
+      },
+      "key_developments": [
+        {
+          "year": -700,
+          "confidence": "medium",
+          "event": "Scythians raid Middle East",
+          "significance": "Disrupted Assyrian and Median empires"
+        },
+        {
+          "year": -450,
+          "confidence": "high",
+          "event": "Herodotus describes Scythians",
+          "significance": "First detailed account of steppe nomads"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Scythian raids weakened Assyria"
+        },
+        {
+          "civilization": "Urartu Kingdom",
+          "type": "conflict",
+          "details": "Helped destroy Urartu"
+        },
+        {
+          "civilization": "Classical Greece (City-States)",
+          "type": "trade",
+          "details": "Grain trade through Black Sea colonies"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Nubian Kingdom of Kush (Napatan)",
+      "period": {
+        "start": {
+          "year": -800,
+          "confidence": "medium",
+          "note": "Napatan period begins"
+        },
+        "end": {
+          "year": -270,
+          "confidence": "medium",
+          "note": "Capital moves to Meroe"
+        }
+      },
+      "location": {
+        "region": "Nubia",
+        "modern": "Northern Sudan"
+      },
+      "key_developments": [
+        {
+          "year": -747,
+          "confidence": "high",
+          "event": "Kushite pharaohs conquer Egypt",
+          "significance": "25th Dynasty; Nubian rule of Egypt"
+        },
+        {
+          "year": -671,
+          "confidence": "high",
+          "event": "Assyrians expel Kushites from Egypt",
+          "significance": "End of Nubian pharaonic period"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Kingdom of Kush",
+          "type": "succession",
+          "details": "Direct continuation of earlier Kush culture"
+        },
+        {
+          "civilization": "New Kingdom Egypt",
+          "type": "cultural_absorption",
+          "details": "Adopted Egyptian religion and royal culture"
+        },
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Assyrians expelled Kushites from Egypt"
+        }
+      ],
+      "region": "Africa & Horn"
+    },
+    {
+      "name": "Maurya Empire",
+      "period": {
+        "start": {
+          "year": -322,
+          "confidence": "high",
+          "note": "Chandragupta Maurya founds empire"
+        },
+        "end": {
+          "year": -185,
+          "confidence": "high",
+          "note": "Last Mauryan emperor assassinated"
+        }
+      },
+      "location": {
+        "region": "Indian Subcontinent",
+        "modern": "India, Pakistan, Bangladesh, Afghanistan"
+      },
+      "key_developments": [
+        {
+          "year": -305,
+          "confidence": "high",
+          "event": "Chandragupta defeats Seleucids",
+          "significance": "First pan-Indian empire established"
+        },
+        {
+          "year": -268,
+          "confidence": "high",
+          "event": "Ashoka's reign begins",
+          "significance": "Buddhism spread throughout Asia"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Vedic India",
+          "type": "cultural_inheritance",
+          "details": "Built on Vedic cultural and religious foundations"
+        },
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "cultural_exchange",
+          "details": "Persian administrative models influenced Maurya"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Qin Dynasty",
+      "period": {
+        "start": {
+          "year": -221,
+          "confidence": "high",
+          "note": "Qin Shi Huang unifies China"
+        },
+        "end": {
+          "year": -206,
+          "confidence": "high",
+          "note": "Collapse after Qin Shi Huang's death"
+        }
+      },
+      "location": {
+        "region": "China",
+        "modern": "China"
+      },
+      "key_developments": [
+        {
+          "year": -221,
+          "confidence": "high",
+          "event": "China unified under first emperor",
+          "significance": "Standardized writing, currency, and measurements"
+        },
+        {
+          "year": -214,
+          "confidence": "high",
+          "event": "Great Wall construction begins",
+          "significance": "Monumental defensive infrastructure"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Zhou Dynasty (Eastern)",
+          "type": "conquest",
+          "details": "Qin conquered all Zhou states to unify China"
+        },
+        {
+          "civilization": "Scythian Kingdom",
+          "type": "conflict",
+          "details": "Great Wall built partly to defend against steppe nomads"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Seleucid Empire",
+      "period": {
+        "start": {
+          "year": -312,
+          "confidence": "high",
+          "note": "Seleucus I founds empire after Alexander"
+        },
+        "end": {
+          "year": -63,
+          "confidence": "high",
+          "note": "Conquered by Rome"
+        }
+      },
+      "location": {
+        "region": "Middle East and Central Asia",
+        "modern": "Syria, Iraq, Iran, Afghanistan"
+      },
+      "key_developments": [
+        {
+          "year": -300,
+          "confidence": "high",
+          "event": "Antioch founded as capital",
+          "significance": "Major Hellenistic cultural center"
+        },
+        {
+          "year": -190,
+          "confidence": "high",
+          "event": "Battle of Magnesia vs. Rome",
+          "significance": "Decline of Seleucid power begins"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "succession",
+          "details": "Inherited eastern Persian territories from Alexander"
+        },
+        {
+          "civilization": "Maurya Empire",
+          "type": "cultural_exchange",
+          "details": "Treaty with Chandragupta; diplomatic exchange"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Ptolemaic Egypt",
+      "period": {
+        "start": {
+          "year": -305,
+          "confidence": "high",
+          "note": "Ptolemy I declares himself pharaoh"
+        },
+        "end": {
+          "year": -30,
+          "confidence": "high",
+          "note": "Cleopatra VII dies; Egypt becomes Roman province"
+        }
+      },
+      "location": {
+        "region": "Nile River Valley",
+        "modern": "Egypt"
+      },
+      "key_developments": [
+        {
+          "year": -290,
+          "confidence": "high",
+          "event": "Library of Alexandria founded",
+          "significance": "Greatest repository of ancient knowledge"
+        },
+        {
+          "year": -51,
+          "confidence": "high",
+          "event": "Cleopatra VII begins reign",
+          "significance": "Last active pharaoh of ancient Egypt"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "New Kingdom Egypt",
+          "type": "cultural_inheritance",
+          "details": "Adopted Egyptian royal traditions and religion"
+        },
+        {
+          "civilization": "Seleucid Empire",
+          "type": "conflict",
+          "details": "Ptolemaic-Seleucid wars over Levant"
+        },
+        {
+          "civilization": "Carthaginian Empire",
+          "type": "trade",
+          "details": "Mediterranean trade relationships"
+        }
+      ],
+      "region": "Egypt & North Africa"
+    },
+    {
+      "name": "Roman Republic",
+      "period": {
+        "start": {
+          "year": -509,
+          "confidence": "medium",
+          "note": "Expulsion of Etruscan kings"
+        },
+        "end": {
+          "year": -27,
+          "confidence": "high",
+          "note": "Augustus becomes first emperor"
+        }
+      },
+      "location": {
+        "region": "Italian Peninsula and Mediterranean",
+        "modern": "Italy, France, Spain, North Africa"
+      },
+      "key_developments": [
+        {
+          "year": -450,
+          "confidence": "high",
+          "event": "Twelve Tables law code",
+          "significance": "Foundation of Roman law"
+        },
+        {
+          "year": -146,
+          "confidence": "high",
+          "event": "Rome destroys Carthage and Corinth",
+          "significance": "Rome dominates Mediterranean"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Etruscan Civilization",
+          "type": "cultural_absorption",
+          "details": "Absorbed Etruscan culture and territory"
+        },
+        {
+          "civilization": "Carthaginian Empire",
+          "type": "conflict",
+          "details": "Three Punic Wars; Rome destroyed Carthage"
+        },
+        {
+          "civilization": "Classical Greece (City-States)",
+          "type": "cultural_exchange",
+          "details": "Deeply influenced by Greek art, philosophy, and religion"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Han Dynasty",
+      "period": {
+        "start": {
+          "year": -206,
+          "confidence": "high",
+          "note": "Liu Bang founds Han after Qin collapse"
+        },
+        "end": {
+          "year": 220,
+          "confidence": "high",
+          "note": "Han dynasty ends; Three Kingdoms period"
+        }
+      },
+      "location": {
+        "region": "China",
+        "modern": "China"
+      },
+      "key_developments": [
+        {
+          "year": -130,
+          "confidence": "high",
+          "event": "Silk Road established",
+          "significance": "Connected China to Mediterranean world"
+        },
+        {
+          "year": -100,
+          "confidence": "high",
+          "event": "Paper invented in China",
+          "significance": "Transformed record-keeping and communication"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Qin Dynasty",
+          "type": "succession",
+          "details": "Liu Bang founded Han after Qin collapse"
+        },
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "trade",
+          "details": "Silk Road trade across Central Asia"
+        },
+        {
+          "civilization": "Maurya Empire",
+          "type": "trade",
+          "details": "Trade contact through Central Asian routes"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Xiongnu Confederation",
+      "period": {
+        "start": {
+          "year": -300,
+          "confidence": "medium",
+          "note": "Xiongnu confederation forms on steppe"
+        },
+        "end": {
+          "year": 48,
+          "confidence": "medium",
+          "note": "Confederation splits into northern and southern"
+        }
+      },
+      "location": {
+        "region": "Mongolian Steppe",
+        "modern": "Mongolia, Northern China"
+      },
+      "key_developments": [
+        {
+          "year": -209,
+          "confidence": "high",
+          "event": "Modu Chanyu unifies Xiongnu",
+          "significance": "First great steppe empire"
+        },
+        {
+          "year": -200,
+          "confidence": "high",
+          "event": "Battle of Baideng; Han forced to pay tribute",
+          "significance": "Xiongnu dominated early Han China"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Qin Dynasty",
+          "type": "conflict",
+          "details": "Great Wall built to defend against Xiongnu"
+        },
+        {
+          "civilization": "Han Dynasty",
+          "type": "conflict",
+          "details": "Centuries of warfare and diplomacy with Han China"
+        },
+        {
+          "civilization": "Scythian Kingdom",
+          "type": "cultural_exchange",
+          "details": "Related steppe nomad traditions"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Kingdom of Judah",
+      "period": {
+        "start": {
+          "year": -930,
+          "confidence": "high",
+          "note": "Split from Kingdom of Israel"
+        },
+        "end": {
+          "year": -586,
+          "confidence": "high",
+          "note": "Destroyed by Nebuchadnezzar II"
+        }
+      },
+      "location": {
+        "region": "Southern Levant",
+        "modern": "Israel and Palestine"
+      },
+      "key_developments": [
+        {
+          "year": -715,
+          "confidence": "high",
+          "event": "Hezekiah's religious reforms",
+          "significance": "Centralized worship in Jerusalem"
+        },
+        {
+          "year": -586,
+          "confidence": "high",
+          "event": "Babylonian exile begins",
+          "significance": "Defining event in Jewish history"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Kingdom of Israel",
+          "type": "succession",
+          "details": "Southern kingdom after Israel split"
+        },
+        {
+          "civilization": "Neo-Assyrian Empire",
+          "type": "conflict",
+          "details": "Paid tribute to Assyria; survived northern kingdom's fall"
+        },
+        {
+          "civilization": "Neo-Babylonian Empire",
+          "type": "conquest",
+          "details": "Nebuchadnezzar destroyed Jerusalem in 586 BCE"
+        }
+      ],
+      "region": "Levant & Arabia"
+    },
+    {
+      "name": "Chavin Culture",
+      "period": {
+        "start": {
+          "year": -900,
+          "confidence": "medium",
+          "note": "Chavin de Huantar established"
+        },
+        "end": {
+          "year": -200,
+          "confidence": "medium",
+          "note": "Decline of Chavin influence"
+        }
+      },
+      "location": {
+        "region": "Andean Highlands",
+        "modern": "Peru"
+      },
+      "key_developments": [
+        {
+          "year": -800,
+          "confidence": "medium",
+          "event": "Chavin de Huantar becomes pilgrimage center",
+          "significance": "First major religious center in South America"
+        },
+        {
+          "year": -600,
+          "confidence": "medium",
+          "event": "Chavin art style spreads across Andes",
+          "significance": "First pan-Andean cultural horizon"
+        }
+      ],
+      "connections": [],
+      "region": "Americas"
+    },
+    {
+      "name": "Celts (La T\u00e8ne Culture)",
+      "period": {
+        "start": {
+          "year": -450,
+          "confidence": "medium",
+          "note": "La T\u00e8ne culture emerges in Central Europe"
+        },
+        "end": {
+          "year": -50,
+          "confidence": "medium",
+          "note": "Roman conquest of Gaul; Celtic power broken"
+        }
+      },
+      "location": {
+        "region": "Central and Western Europe",
+        "modern": "France, Britain, Ireland, Spain, Germany"
+      },
+      "key_developments": [
+        {
+          "year": -390,
+          "confidence": "high",
+          "event": "Celts sack Rome",
+          "significance": "First major threat to Rome from northern Europe"
+        },
+        {
+          "year": -300,
+          "confidence": "medium",
+          "event": "Celtic migrations into Anatolia",
+          "significance": "Galatians settle in central Turkey"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Republic",
+          "type": "conflict",
+          "details": "Centuries of conflict; eventually conquered by Rome"
+        },
+        {
+          "civilization": "Classical Greece (City-States)",
+          "type": "trade",
+          "details": "Trade in amber, metals, and slaves"
+        },
+        {
+          "civilization": "Etruscan Civilization",
+          "type": "cultural_exchange",
+          "details": "Cultural and trade contacts in northern Italy"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Kushan Empire",
+      "period": {
+        "start": {
+          "year": 30,
+          "confidence": "medium",
+          "note": "Kujula Kadphises unifies Kushan tribes"
+        },
+        "end": {
+          "year": 375,
+          "confidence": "medium",
+          "note": "Disintegration under Sasanian and Kidarite pressure"
+        }
+      },
+      "location": {
+        "region": "Central and South Asia",
+        "modern": "Afghanistan, Pakistan, Northern India"
+      },
+      "key_developments": [
+        {
+          "year": 100,
+          "confidence": "medium",
+          "event": "Kanishka I expands empire",
+          "significance": "Major patron of Buddhism; spread to Central Asia"
+        },
+        {
+          "year": 150,
+          "confidence": "medium",
+          "event": "Gandhara art flourishes",
+          "significance": "Fusion of Greek and Buddhist artistic traditions"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Maurya Empire",
+          "type": "cultural_inheritance",
+          "details": "Ruled former Mauryan northwestern territories"
+        },
+        {
+          "civilization": "Han Dynasty",
+          "type": "trade",
+          "details": "Key node on the Silk Road between China and Rome"
+        },
+        {
+          "civilization": "Seleucid Empire",
+          "type": "cultural_exchange",
+          "details": "Inherited Hellenistic cultural influences"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Parthian Empire",
+      "period": {
+        "start": {
+          "year": -247,
+          "confidence": "medium",
+          "note": "Arsaces I founds Parthian state"
+        },
+        "end": {
+          "year": 224,
+          "confidence": "high",
+          "note": "Overthrown by Ardashir I; Sasanian Empire begins"
+        }
+      },
+      "location": {
+        "region": "Iranian Plateau and Mesopotamia",
+        "modern": "Iran and Iraq"
+      },
+      "key_developments": [
+        {
+          "year": -141,
+          "confidence": "high",
+          "event": "Mithridates I captures Mesopotamia",
+          "significance": "Parthia becomes major power"
+        },
+        {
+          "year": -53,
+          "confidence": "high",
+          "event": "Battle of Carrhae vs. Rome",
+          "significance": "Devastating Roman defeat; defined eastern frontier"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "cultural_inheritance",
+          "details": "Revived Persian traditions and ruled former Achaemenid lands"
+        },
+        {
+          "civilization": "Seleucid Empire",
+          "type": "conflict",
+          "details": "Gradually replaced Seleucid rule in the east"
+        },
+        {
+          "civilization": "Han Dynasty",
+          "type": "trade",
+          "details": "Intermediary in Silk Road trade between China and Rome"
+        }
+      ],
+      "region": "Mesopotamia"
+    },
+    {
+      "name": "Nok Culture",
+      "period": {
+        "start": {
+          "year": -1000,
+          "confidence": "medium",
+          "note": "Earliest Nok terracottas"
+        },
+        "end": {
+          "year": 300,
+          "confidence": "medium",
+          "note": "Decline of Nok culture"
+        }
+      },
+      "location": {
+        "region": "West Africa",
+        "modern": "Central Nigeria"
+      },
+      "key_developments": [
+        {
+          "year": -500,
+          "confidence": "medium",
+          "event": "Iron smelting in sub-Saharan Africa",
+          "significance": "Among earliest iron technology in Africa"
+        },
+        {
+          "year": -400,
+          "confidence": "medium",
+          "event": "Distinctive terracotta sculpture tradition",
+          "significance": "Earliest known sculpture in sub-Saharan Africa"
+        }
+      ],
+      "connections": [],
+      "region": "Africa & Horn"
+    },
+    {
+      "name": "Roman Empire",
+      "period": {
+        "start": {
+          "year": -27,
+          "confidence": "high",
+          "note": "Augustus becomes first emperor"
+        },
+        "end": {
+          "year": 476,
+          "confidence": "high",
+          "note": "Fall of Western Roman Empire"
+        }
+      },
+      "location": {
+        "region": "Mediterranean Basin",
+        "modern": "Italy, France, Spain, Britain, North Africa, Middle East"
+      },
+      "key_developments": [
+        {
+          "year": 70,
+          "confidence": "high",
+          "event": "Destruction of Jerusalem Temple",
+          "significance": "Dispersal of Jewish people across empire"
+        },
+        {
+          "year": 313,
+          "confidence": "high",
+          "event": "Edict of Milan; Christianity legalized",
+          "significance": "Christianity becomes dominant religion of West"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Republic",
+          "type": "succession",
+          "details": "Augustus transformed Republic into Empire"
+        },
+        {
+          "civilization": "Ptolemaic Egypt",
+          "type": "conquest",
+          "details": "Egypt absorbed as Roman province after Cleopatra"
+        },
+        {
+          "civilization": "Parthian Empire",
+          "type": "conflict",
+          "details": "Centuries of rivalry along eastern frontier"
+        },
+        {
+          "civilization": "Celts (La T\u00e8ne Culture)",
+          "type": "conquest",
+          "details": "Caesar conquered Gaul; Celts assimilated"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Byzantine Empire",
+      "period": {
+        "start": {
+          "year": 330,
+          "confidence": "high",
+          "note": "Constantinople founded as eastern capital"
+        },
+        "end": {
+          "year": 1453,
+          "confidence": "high",
+          "note": "Fall of Constantinople to Ottoman Turks"
+        }
+      },
+      "location": {
+        "region": "Eastern Mediterranean",
+        "modern": "Turkey, Greece, Balkans, Middle East"
+      },
+      "key_developments": [
+        {
+          "year": 537,
+          "confidence": "high",
+          "event": "Hagia Sophia completed",
+          "significance": "Greatest cathedral of medieval world"
+        },
+        {
+          "year": 1054,
+          "confidence": "high",
+          "event": "Great Schism with Rome",
+          "significance": "Christianity splits into Catholic and Orthodox"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Empire",
+          "type": "succession",
+          "details": "Eastern continuation of Roman Empire"
+        },
+        {
+          "civilization": "Sasanian Empire",
+          "type": "conflict",
+          "details": "Centuries of warfare until both exhausted by Arab conquests"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "conflict",
+          "details": "Lost most territory to Arab expansion in 7th century"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Sasanian Empire",
+      "period": {
+        "start": {
+          "year": 224,
+          "confidence": "high",
+          "note": "Ardashir I overthrows Parthians"
+        },
+        "end": {
+          "year": 651,
+          "confidence": "high",
+          "note": "Arab Muslim conquest completes"
+        }
+      },
+      "location": {
+        "region": "Iranian Plateau and Mesopotamia",
+        "modern": "Iran, Iraq, Afghanistan"
+      },
+      "key_developments": [
+        {
+          "year": 260,
+          "confidence": "high",
+          "event": "Shapur I captures Roman Emperor Valerian",
+          "significance": "Greatest Sasanian military triumph"
+        },
+        {
+          "year": 531,
+          "confidence": "high",
+          "event": "Khosrow I's golden age",
+          "significance": "Peak of Sasanian culture and power"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Parthian Empire",
+          "type": "succession",
+          "details": "Ardashir overthrew last Parthian king"
+        },
+        {
+          "civilization": "Roman Empire",
+          "type": "conflict",
+          "details": "Constant warfare along Euphrates frontier"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "conflict",
+          "details": "Exhausting wars weakened both before Arab conquest"
+        },
+        {
+          "civilization": "Kushan Empire",
+          "type": "conquest",
+          "details": "Sasanians absorbed eastern Kushan territories"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Islamic Caliphates",
+      "period": {
+        "start": {
+          "year": 632,
+          "confidence": "high",
+          "note": "Death of Muhammad; Abu Bakr first caliph"
+        },
+        "end": {
+          "year": 1258,
+          "confidence": "high",
+          "note": "Mongols sack Baghdad; end of Abbasid Caliphate"
+        }
+      },
+      "location": {
+        "region": "Middle East, North Africa, Spain, Central Asia",
+        "modern": "Arabia, Iraq, Iran, Egypt, Spain, Pakistan"
+      },
+      "key_developments": [
+        {
+          "year": 750,
+          "confidence": "high",
+          "event": "Abbasid Caliphate founded; capital at Baghdad",
+          "significance": "Islamic Golden Age of science and culture"
+        },
+        {
+          "year": 830,
+          "confidence": "high",
+          "event": "House of Wisdom in Baghdad",
+          "significance": "Major center of translation and scholarship"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Byzantine Empire",
+          "type": "conflict",
+          "details": "Arab armies conquered Syria, Egypt, North Africa from Byzantium"
+        },
+        {
+          "civilization": "Sasanian Empire",
+          "type": "conquest",
+          "details": "Islamic armies destroyed Sasanian Empire by 651 CE"
+        },
+        {
+          "civilization": "Roman Empire",
+          "type": "cultural_exchange",
+          "details": "Preserved and expanded Greek-Roman scientific knowledge"
+        }
+      ],
+      "region": "Levant & Arabia"
+    },
+    {
+      "name": "Macedonian Empire",
+      "period": {
+        "start": {
+          "year": -359,
+          "confidence": "high",
+          "note": "Philip II becomes king of Macedon"
+        },
+        "end": {
+          "year": -323,
+          "confidence": "high",
+          "note": "Death of Alexander the Great"
+        }
+      },
+      "location": {
+        "region": "Mediterranean to Central Asia",
+        "modern": "Greece, Turkey, Egypt, Iran, Afghanistan, Pakistan"
+      },
+      "key_developments": [
+        {
+          "year": -334,
+          "confidence": "high",
+          "event": "Alexander invades Persia",
+          "significance": "Began conquest of largest empire in ancient world"
+        },
+        {
+          "year": -323,
+          "confidence": "high",
+          "event": "Alexander dies at Babylon",
+          "significance": "Empire immediately divided among successors"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Classical Greece (City-States)",
+          "type": "conquest",
+          "details": "Philip II and Alexander unified and led Greek world"
+        },
+        {
+          "civilization": "Achaemenid Persian Empire",
+          "type": "conquest",
+          "details": "Alexander destroyed Achaemenid Empire"
+        },
+        {
+          "civilization": "Ptolemaic Egypt",
+          "type": "succession",
+          "details": "Ptolemy I took Egypt after Alexander's death"
+        },
+        {
+          "civilization": "Seleucid Empire",
+          "type": "succession",
+          "details": "Seleucus took eastern territories after Alexander"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Vandal Kingdom",
+      "period": {
+        "start": {
+          "year": 429,
+          "confidence": "high",
+          "note": "Vandals cross into North Africa"
+        },
+        "end": {
+          "year": 534,
+          "confidence": "high",
+          "note": "Destroyed by Byzantine general Belisarius"
+        }
+      },
+      "location": {
+        "region": "North Africa",
+        "modern": "Tunisia, Algeria, Libya"
+      },
+      "key_developments": [
+        {
+          "year": 455,
+          "confidence": "high",
+          "event": "Vandals sack Rome",
+          "significance": "Second sack of Rome; looted for two weeks"
+        },
+        {
+          "year": 476,
+          "confidence": "high",
+          "event": "Vandals control western Mediterranean sea lanes",
+          "significance": "Disrupted Roman trade routes"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Empire",
+          "type": "conflict",
+          "details": "Vandals helped bring down the Western Roman Empire"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "conflict",
+          "details": "Belisarius reconquered North Africa for Byzantium in 534"
+        },
+        {
+          "civilization": "Carthaginian Empire",
+          "type": "cultural_exchange",
+          "details": "Settled in former Carthaginian territories"
+        }
+      ],
+      "region": "Egypt & North Africa"
+    },
+    {
+      "name": "Visigoth Kingdom",
+      "period": {
+        "start": {
+          "year": 376,
+          "confidence": "high",
+          "note": "Visigoths cross Danube into Roman Empire"
+        },
+        "end": {
+          "year": 711,
+          "confidence": "high",
+          "note": "Conquered by Muslim Umayyad forces"
+        }
+      },
+      "location": {
+        "region": "Iberian Peninsula and Southern Gaul",
+        "modern": "Spain and Portugal"
+      },
+      "key_developments": [
+        {
+          "year": 410,
+          "confidence": "high",
+          "event": "Visigoths sack Rome under Alaric",
+          "significance": "First sack of Rome in 800 years; shocked the ancient world"
+        },
+        {
+          "year": 589,
+          "confidence": "high",
+          "event": "Visigoths convert to Catholicism",
+          "significance": "Unified Iberian kingdom under Roman Church"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Empire",
+          "type": "conflict",
+          "details": "Sacked Rome; accelerated fall of Western Empire"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "conquest",
+          "details": "Umayyad forces destroyed Visigoth kingdom in 711"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "cultural_exchange",
+          "details": "Maintained diplomatic and religious ties"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Frankish Kingdom",
+      "period": {
+        "start": {
+          "year": 481,
+          "confidence": "high",
+          "note": "Clovis I becomes king of the Franks"
+        },
+        "end": {
+          "year": 987,
+          "confidence": "high",
+          "note": "Carolingian line ends; Capetian dynasty begins"
+        }
+      },
+      "location": {
+        "region": "Western Europe",
+        "modern": "France, Germany, Belgium, Netherlands"
+      },
+      "key_developments": [
+        {
+          "year": 496,
+          "confidence": "high",
+          "event": "Clovis I baptized as Catholic",
+          "significance": "First major Germanic king to adopt Catholicism"
+        },
+        {
+          "year": 800,
+          "confidence": "high",
+          "event": "Charlemagne crowned Holy Roman Emperor",
+          "significance": "Unified most of Western Europe under one ruler"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Empire",
+          "type": "cultural_inheritance",
+          "details": "Adopted Roman law, Latin language, and Christian religion"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "cultural_exchange",
+          "details": "Diplomatic ties; competed for Christian leadership"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "conflict",
+          "details": "Charles Martel stopped Muslim advance at Tours in 732"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Viking Age Scandinavia",
+      "period": {
+        "start": {
+          "year": 793,
+          "confidence": "high",
+          "note": "Raid on Lindisfarne monastery"
+        },
+        "end": {
+          "year": 1100,
+          "confidence": "medium",
+          "note": "Christianization and end of raiding age"
+        }
+      },
+      "location": {
+        "region": "Northern Europe and beyond",
+        "modern": "Norway, Sweden, Denmark, Iceland, Greenland"
+      },
+      "key_developments": [
+        {
+          "year": 860,
+          "confidence": "high",
+          "event": "Vikings discover Iceland",
+          "significance": "First European settlement of North Atlantic islands"
+        },
+        {
+          "year": 1000,
+          "confidence": "high",
+          "event": "Leif Erikson reaches North America",
+          "significance": "First Europeans to reach Americas"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Frankish Kingdom",
+          "type": "conflict",
+          "details": "Viking raids devastated Frankish coastal settlements"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "trade",
+          "details": "Varangian trade routes from Scandinavia to Constantinople"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "trade",
+          "details": "Volga trade route; silver dirham coins found across Scandinavia"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Axum Kingdom",
+      "period": {
+        "start": {
+          "year": 100,
+          "confidence": "medium",
+          "note": "Rise of Aksumite state"
+        },
+        "end": {
+          "year": 940,
+          "confidence": "medium",
+          "note": "Decline; capital abandoned"
+        }
+      },
+      "location": {
+        "region": "Horn of Africa",
+        "modern": "Ethiopia and Eritrea"
+      },
+      "key_developments": [
+        {
+          "year": 330,
+          "confidence": "high",
+          "event": "King Ezana converts to Christianity",
+          "significance": "Second kingdom after Armenia to adopt Christianity"
+        },
+        {
+          "year": 525,
+          "confidence": "high",
+          "event": "Axum conquers Yemen",
+          "significance": "Peak of Axumite power; controls Red Sea trade"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Nubian Kingdom of Kush (Napatan)",
+          "type": "conflict",
+          "details": "Axum destroyed Meroitic Kush around 350 CE"
+        },
+        {
+          "civilization": "Roman Empire",
+          "type": "trade",
+          "details": "Major trading partner; Axum coins found across Roman Empire"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "cultural_exchange",
+          "details": "Early Muslim refugees sheltered in Axum"
+        }
+      ],
+      "region": "Africa & Horn"
+    },
+    {
+      "name": "Gupta Empire",
+      "period": {
+        "start": {
+          "year": 320,
+          "confidence": "high",
+          "note": "Chandragupta I founds empire"
+        },
+        "end": {
+          "year": 550,
+          "confidence": "medium",
+          "note": "Collapse under Hun invasions"
+        }
+      },
+      "location": {
+        "region": "Indian Subcontinent",
+        "modern": "India"
+      },
+      "key_developments": [
+        {
+          "year": 400,
+          "confidence": "high",
+          "event": "Golden Age of Indian mathematics",
+          "significance": "Zero, decimal system, and algebra developed"
+        },
+        {
+          "year": 450,
+          "confidence": "medium",
+          "event": "Kalidasa writes Sanskrit plays",
+          "significance": "Peak of classical Sanskrit literature"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Maurya Empire",
+          "type": "cultural_inheritance",
+          "details": "Revived and expanded Mauryan cultural traditions"
+        },
+        {
+          "civilization": "Kushan Empire",
+          "type": "succession",
+          "details": "Absorbed former Kushan territories in north India"
+        },
+        {
+          "civilization": "Sasanian Empire",
+          "type": "trade",
+          "details": "Silk Road trade and diplomatic contact"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Tang Dynasty",
+      "period": {
+        "start": {
+          "year": 618,
+          "confidence": "high",
+          "note": "Li Yuan founds Tang Dynasty"
+        },
+        "end": {
+          "year": 907,
+          "confidence": "high",
+          "note": "Tang Dynasty collapses"
+        }
+      },
+      "location": {
+        "region": "East Asia",
+        "modern": "China"
+      },
+      "key_developments": [
+        {
+          "year": 645,
+          "confidence": "high",
+          "event": "Xuanzang returns with Buddhist texts",
+          "significance": "Major transmission of Buddhism in East Asia"
+        },
+        {
+          "year": 751,
+          "confidence": "high",
+          "event": "Battle of Talas vs. Abbasids",
+          "significance": "Papermaking technology transmitted to Islamic world"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Han Dynasty",
+          "type": "succession",
+          "details": "Revived Han-era institutions and expanded territory"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "cultural_exchange",
+          "details": "Battle of Talas; later peaceful Silk Road exchanges"
+        },
+        {
+          "civilization": "Kushan Empire",
+          "type": "cultural_exchange",
+          "details": "Buddhist transmission through former Kushan lands"
+        }
+      ],
+      "region": "Asia"
+    },
+    {
+      "name": "Umayyad Caliphate",
+      "period": {
+        "start": {
+          "year": 661,
+          "confidence": "high",
+          "note": "Muawiya I becomes first Umayyad caliph"
+        },
+        "end": {
+          "year": 750,
+          "confidence": "high",
+          "note": "Abbasid revolution overthrows Umayyads"
+        }
+      },
+      "location": {
+        "region": "Middle East, North Africa, Spain, Central Asia",
+        "modern": "Syria, Spain, Iran, Pakistan"
+      },
+      "key_developments": [
+        {
+          "year": 711,
+          "confidence": "high",
+          "event": "Muslim forces conquer Iberian Peninsula",
+          "significance": "Islam reaches Europe"
+        },
+        {
+          "year": 691,
+          "confidence": "high",
+          "event": "Dome of the Rock completed in Jerusalem",
+          "significance": "One of Islam's holiest sites"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "succession",
+          "details": "First hereditary Islamic dynasty; later replaced by Abbasids"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "conflict",
+          "details": "Besieged Constantinople twice; failed both times"
+        },
+        {
+          "civilization": "Visigoth Kingdom",
+          "type": "conquest",
+          "details": "Umayyad forces conquered Visigoth Spain in 711"
+        },
+        {
+          "civilization": "Frankish Kingdom",
+          "type": "conflict",
+          "details": "Stopped at Battle of Tours/Poitiers in 732"
+        }
+      ],
+      "region": "Levant & Arabia"
+    },
+    {
+      "name": "Ostrogoth Kingdom",
+      "period": {
+        "start": {
+          "year": 493,
+          "confidence": "high",
+          "note": "Theodoric conquers Italy"
+        },
+        "end": {
+          "year": 553,
+          "confidence": "high",
+          "note": "Destroyed by Byzantine reconquest"
+        }
+      },
+      "location": {
+        "region": "Italian Peninsula",
+        "modern": "Italy"
+      },
+      "key_developments": [
+        {
+          "year": 493,
+          "confidence": "high",
+          "event": "Theodoric establishes kingdom in Italy",
+          "significance": "Most Roman of the Germanic kingdoms"
+        },
+        {
+          "year": 524,
+          "confidence": "high",
+          "event": "Boethius writes Consolation of Philosophy",
+          "significance": "Key text bridging ancient and medieval thought"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Empire",
+          "type": "cultural_inheritance",
+          "details": "Theodoric consciously preserved Roman institutions"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "conflict",
+          "details": "Justinian's wars destroyed the Ostrogoth kingdom"
+        },
+        {
+          "civilization": "Frankish Kingdom",
+          "type": "conflict",
+          "details": "Competed for influence in post-Roman western Europe"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Sassanid-era Armenia",
+      "period": {
+        "start": {
+          "year": 301,
+          "confidence": "high",
+          "note": "Armenia adopts Christianity as state religion"
+        },
+        "end": {
+          "year": 884,
+          "confidence": "medium",
+          "note": "Bagratid dynasty restores Armenian kingdom"
+        }
+      },
+      "location": {
+        "region": "Armenian Highlands",
+        "modern": "Armenia, Eastern Turkey"
+      },
+      "key_developments": [
+        {
+          "year": 301,
+          "confidence": "high",
+          "event": "First nation to adopt Christianity",
+          "significance": "Armenia precedes Rome in adopting Christianity"
+        },
+        {
+          "year": 405,
+          "confidence": "high",
+          "event": "Armenian alphabet created by Mesrop Mashtots",
+          "significance": "Preserved distinct Armenian cultural identity"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Sasanian Empire",
+          "type": "conflict",
+          "details": "Armenia was battleground between Persia and Rome/Byzantium"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "cultural_exchange",
+          "details": "Shared Christian faith; often allied against Persia"
+        },
+        {
+          "civilization": "Urartu Kingdom",
+          "type": "cultural_inheritance",
+          "details": "Armenians emerged from Urartu region and culture"
+        }
+      ],
+      "region": "Anatolia & Persia"
+    },
+    {
+      "name": "Kingdom of Ghana",
+      "period": {
+        "start": {
+          "year": 300,
+          "confidence": "low",
+          "note": "Earliest references to Wagadou kingdom"
+        },
+        "end": {
+          "year": 1076,
+          "confidence": "medium",
+          "note": "Almoravid invasion weakens kingdom"
+        }
+      },
+      "location": {
+        "region": "West Africa",
+        "modern": "Mauritania and Mali"
+      },
+      "key_developments": [
+        {
+          "year": 700,
+          "confidence": "medium",
+          "event": "Ghana controls trans-Saharan gold trade",
+          "significance": "Wealthiest kingdom in West Africa"
+        },
+        {
+          "year": 1000,
+          "confidence": "medium",
+          "event": "Peak of Ghana's power",
+          "significance": "Controls gold and salt trade routes"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "trade",
+          "details": "Trans-Saharan trade in gold and salt with Arab merchants"
+        },
+        {
+          "civilization": "Nok Culture",
+          "type": "cultural_exchange",
+          "details": "Inherited West African iron-working traditions"
+        }
+      ],
+      "region": "Africa & Horn"
+    },
+    {
+      "name": "Mayan Classic Period",
+      "period": {
+        "start": {
+          "year": 250,
+          "confidence": "medium",
+          "note": "Classic period begins"
+        },
+        "end": {
+          "year": 900,
+          "confidence": "medium",
+          "note": "Collapse of major lowland cities"
+        }
+      },
+      "location": {
+        "region": "Mesoamerica",
+        "modern": "Mexico, Guatemala, Belize, Honduras"
+      },
+      "key_developments": [
+        {
+          "year": 400,
+          "confidence": "medium",
+          "event": "Teotihuacan influence reaches Maya",
+          "significance": "Mesoamerican cultural exchange"
+        },
+        {
+          "year": 700,
+          "confidence": "medium",
+          "event": "Height of Maya astronomy and writing",
+          "significance": "Most sophisticated writing system in Americas"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Olmec Civilization",
+          "type": "cultural_inheritance",
+          "details": "Built on Olmec religious and artistic traditions"
+        },
+        {
+          "civilization": "Zapotec Civilization",
+          "type": "cultural_exchange",
+          "details": "Shared Mesoamerican calendar and writing traditions"
+        }
+      ],
+      "region": "Americas"
+    },
+    {
+      "name": "Teotihuacan",
+      "period": {
+        "start": {
+          "year": -100,
+          "confidence": "medium",
+          "note": "City begins to grow rapidly"
+        },
+        "end": {
+          "year": 550,
+          "confidence": "medium",
+          "note": "City burned and abandoned"
+        }
+      },
+      "location": {
+        "region": "Central Mexico",
+        "modern": "Mexico"
+      },
+      "key_developments": [
+        {
+          "year": 100,
+          "confidence": "medium",
+          "event": "Pyramid of the Sun constructed",
+          "significance": "Third largest pyramid in the world"
+        },
+        {
+          "year": 400,
+          "confidence": "medium",
+          "event": "City reaches 125,000 inhabitants",
+          "significance": "One of largest cities in ancient world"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Olmec Civilization",
+          "type": "cultural_inheritance",
+          "details": "Built on Olmec religious traditions"
+        },
+        {
+          "civilization": "Mayan Classic Period",
+          "type": "cultural_exchange",
+          "details": "Teotihuacan traders and warriors deeply influenced Maya"
+        },
+        {
+          "civilization": "Zapotec Civilization",
+          "type": "cultural_exchange",
+          "details": "Teotihuacan barrio found at Monte Alb\u00e1n"
+        }
+      ],
+      "region": "Americas"
+    },
+    {
+      "name": "Hunnic Empire",
+      "period": {
+        "start": {
+          "year": 370,
+          "confidence": "medium",
+          "note": "Huns cross Volga; begin western expansion"
+        },
+        "end": {
+          "year": 469,
+          "confidence": "high",
+          "note": "Empire collapses after death of Attila"
+        }
+      },
+      "location": {
+        "region": "Central Europe and Steppe",
+        "modern": "Hungary, Romania, Ukraine"
+      },
+      "key_developments": [
+        {
+          "year": 434,
+          "confidence": "high",
+          "event": "Attila becomes sole ruler",
+          "significance": "Most feared leader in late antiquity"
+        },
+        {
+          "year": 451,
+          "confidence": "high",
+          "event": "Battle of Catalaunian Plains",
+          "significance": "Attila stopped in Gaul; Rome and Visigoths allied"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Roman Empire",
+          "type": "conflict",
+          "details": "Huns devastated Roman provinces and extorted tribute"
+        },
+        {
+          "civilization": "Visigoth Kingdom",
+          "type": "conflict",
+          "details": "Huns pushed Visigoths into Roman Empire, triggering its fall"
+        },
+        {
+          "civilization": "Xiongnu Confederation",
+          "type": "cultural_exchange",
+          "details": "Likely related to Xiongnu; western branch of steppe nomads"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Carolingian Empire",
+      "period": {
+        "start": {
+          "year": 768,
+          "confidence": "high",
+          "note": "Charlemagne becomes king of Franks"
+        },
+        "end": {
+          "year": 843,
+          "confidence": "high",
+          "note": "Treaty of Verdun splits empire three ways"
+        }
+      },
+      "location": {
+        "region": "Western and Central Europe",
+        "modern": "France, Germany, Italy, Low Countries"
+      },
+      "key_developments": [
+        {
+          "year": 800,
+          "confidence": "high",
+          "event": "Charlemagne crowned Holy Roman Emperor",
+          "significance": "Revival of Roman imperial concept in the West"
+        },
+        {
+          "year": 789,
+          "confidence": "high",
+          "event": "Carolingian Renaissance begins",
+          "significance": "Revival of learning and literacy in Europe"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Frankish Kingdom",
+          "type": "succession",
+          "details": "Charlemagne transformed Frankish kingdom into empire"
+        },
+        {
+          "civilization": "Byzantine Empire",
+          "type": "cultural_exchange",
+          "details": "Competed and cooperated over Christian leadership of Europe"
+        },
+        {
+          "civilization": "Islamic Caliphates",
+          "type": "cultural_exchange",
+          "details": "Diplomatic exchanges with Abbasid Caliph Harun al-Rashid"
+        },
+        {
+          "civilization": "Viking Age Scandinavia",
+          "type": "conflict",
+          "details": "Viking raids devastated Carolingian coasts"
+        }
+      ],
+      "region": "Europe & Mediterranean"
+    },
+    {
+      "name": "Urnfield Culture",
+      "region": "Europe & Mediterranean",
+      "period": {
+        "start": {
+          "year": -1300,
+          "confidence": "medium",
+          "note": "Emergence of Urnfield cremation tradition"
+        },
+        "end": {
+          "year": -750,
+          "confidence": "medium",
+          "note": "Transition into Hallstatt Iron Age culture"
+        }
+      },
+      "location": {
+        "region": "Central Europe",
+        "modern": "Germany, Austria, France, Czech Republic"
+      },
+      "key_developments": [
+        {
+          "year": -1200,
+          "confidence": "medium",
+          "event": "Widespread cremation burial practice",
+          "significance": "First pan-European cultural horizon"
+        },
+        {
+          "year": -1000,
+          "confidence": "medium",
+          "event": "Bronze working reaches peak sophistication",
+          "significance": "Extensive trade networks across Europe"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hallstatt Culture",
+          "type": "succession",
+          "details": "Hallstatt culture directly evolved from Urnfield tradition"
+        },
+        {
+          "civilization": "Mycenaean Greece",
+          "type": "trade",
+          "details": "Amber and metal trade routes to Aegean"
+        },
+        {
+          "civilization": "Celts (La T\u00e8ne Culture)",
+          "type": "cultural_inheritance",
+          "details": "Ancestral culture of the later Celtic peoples"
+        }
+      ]
+    },
+    {
+      "name": "Hallstatt Culture",
+      "region": "Europe & Mediterranean",
+      "period": {
+        "start": {
+          "year": -1200,
+          "confidence": "medium",
+          "note": "Early Hallstatt Iron Age begins in Central Europe"
+        },
+        "end": {
+          "year": -450,
+          "confidence": "medium",
+          "note": "Transition into La T\u00e8ne Celtic culture"
+        }
+      },
+      "location": {
+        "region": "Central Europe",
+        "modern": "Austria, Germany, France, Switzerland"
+      },
+      "key_developments": [
+        {
+          "year": -800,
+          "confidence": "medium",
+          "event": "Iron working replaces bronze as primary metal",
+          "significance": "First Iron Age culture in Europe"
+        },
+        {
+          "year": -600,
+          "confidence": "medium",
+          "event": "Hallstatt salt mines at peak production",
+          "significance": "Salt trade drives European economic network"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Urnfield Culture",
+          "type": "succession",
+          "details": "Direct cultural evolution from Urnfield Bronze Age"
+        },
+        {
+          "civilization": "Celts (La T\u00e8ne Culture)",
+          "type": "succession",
+          "details": "La T\u00e8ne Celtic culture evolved from Hallstatt"
+        },
+        {
+          "civilization": "Etruscan Civilization",
+          "type": "trade",
+          "details": "Etruscan luxury goods traded north into Hallstatt territory"
+        },
+        {
+          "civilization": "Classical Greece (City-States)",
+          "type": "trade",
+          "details": "Greek wine and pottery traded for northern metals and amber"
+        }
+      ]
+    },
+    {
+      "name": "Sea Peoples",
+      "region": "Europe & Mediterranean",
+      "period": {
+        "start": {
+          "year": -1250,
+          "confidence": "medium",
+          "note": "First raids on Egypt and Levant begin"
+        },
+        "end": {
+          "year": -1100,
+          "confidence": "medium",
+          "note": "Raids cease; groups settle across Mediterranean"
+        }
+      },
+      "location": {
+        "region": "Eastern Mediterranean",
+        "modern": "Greece, Turkey, Cyprus, Levant"
+      },
+      "key_developments": [
+        {
+          "year": -1207,
+          "confidence": "high",
+          "event": "First recorded attack on Egypt under Merneptah",
+          "significance": "First historical mention of Sea Peoples"
+        },
+        {
+          "year": -1177,
+          "confidence": "high",
+          "event": "Major invasion of Egypt under Ramesses III",
+          "significance": "Helped trigger the Bronze Age Collapse"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "New Kingdom Egypt",
+          "type": "conflict",
+          "details": "Ramesses III repelled Sea Peoples at the Battle of the Delta"
+        },
+        {
+          "civilization": "Hittite Empire",
+          "type": "conflict",
+          "details": "Sea Peoples raids contributed to Hittite collapse"
+        },
+        {
+          "civilization": "Mycenaean Greece",
+          "type": "conflict",
+          "details": "Sea Peoples raids contributed to Mycenaean collapse"
+        },
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "cultural_exchange",
+          "details": "Some Sea Peoples settled in Levant; possible ancestors of Philistines"
+        },
+        {
+          "civilization": "Ugarit",
+          "type": "conflict",
+          "details": "Sea Peoples destroyed the city of Ugarit around 1185 BCE"
+        }
+      ]
+    },
+    {
+      "name": "Greek Dark Age",
+      "region": "Europe & Mediterranean",
+      "period": {
+        "start": {
+          "year": -1100,
+          "confidence": "medium",
+          "note": "Collapse of Mycenaean palace system"
+        },
+        "end": {
+          "year": -800,
+          "confidence": "medium",
+          "note": "Re-emergence of Greek city-states; Homer composed"
+        }
+      },
+      "location": {
+        "region": "Greek Peninsula and Aegean",
+        "modern": "Greece and Western Turkey"
+      },
+      "key_developments": [
+        {
+          "year": -1050,
+          "confidence": "medium",
+          "event": "Loss of Linear B writing; literacy disappears",
+          "significance": "Cultural regression after Mycenaean collapse"
+        },
+        {
+          "year": -900,
+          "confidence": "medium",
+          "event": "Iron gradually replaces bronze in Greece",
+          "significance": "Beginning of Greek Iron Age recovery"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Mycenaean Greece",
+          "type": "succession",
+          "details": "Emerged from the ruins of Mycenaean civilization"
+        },
+        {
+          "civilization": "Classical Greece (City-States)",
+          "type": "succession",
+          "details": "Dark Age gave way to Archaic and Classical Greece"
+        },
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "cultural_exchange",
+          "details": "Phoenician traders maintained contact; alphabet transmitted to Greeks"
+        }
+      ]
+    },
+    {
+      "name": "Villanovan Culture",
+      "region": "Europe & Mediterranean",
+      "period": {
+        "start": {
+          "year": -1100,
+          "confidence": "medium",
+          "note": "Early Iron Age culture in northern Italy"
+        },
+        "end": {
+          "year": -700,
+          "confidence": "medium",
+          "note": "Transitions into Etruscan civilization"
+        }
+      },
+      "location": {
+        "region": "Northern Italian Peninsula",
+        "modern": "Northern and Central Italy"
+      },
+      "key_developments": [
+        {
+          "year": -900,
+          "confidence": "medium",
+          "event": "Cremation burial in biconical urns widespread",
+          "significance": "Distinctive cultural identity in pre-Roman Italy"
+        },
+        {
+          "year": -800,
+          "confidence": "medium",
+          "event": "Iron working established in Italy",
+          "significance": "Foundation for later Etruscan metallurgy"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Urnfield Culture",
+          "type": "cultural_inheritance",
+          "details": "Related cremation burial traditions from Central Europe"
+        },
+        {
+          "civilization": "Etruscan Civilization",
+          "type": "succession",
+          "details": "Villanovan culture directly evolved into Etruscan civilization"
+        }
+      ]
+    },
+    {
+      "name": "Ugarit",
+      "region": "Levant & Arabia",
+      "period": {
+        "start": {
+          "year": -1450,
+          "confidence": "medium",
+          "note": "Ugarit at peak as major Bronze Age trading city"
+        },
+        "end": {
+          "year": -1185,
+          "confidence": "high",
+          "note": "City destroyed by Sea Peoples; never rebuilt"
+        }
+      },
+      "location": {
+        "region": "Northern Levantine Coast",
+        "modern": "Northwestern Syria"
+      },
+      "key_developments": [
+        {
+          "year": -1400,
+          "confidence": "high",
+          "event": "Ugaritic alphabet developed",
+          "significance": "Earliest known alphabetic writing system; precursor to Phoenician"
+        },
+        {
+          "year": -1300,
+          "confidence": "medium",
+          "event": "Ugarit serves as major international port",
+          "significance": "Hub connecting Egypt, Hittites, Cyprus, and Aegean"
+        }
+      ],
+      "connections": [
+        {
+          "civilization": "Hittite Empire",
+          "type": "trade",
+          "details": "Ugarit was a vassal and trading partner of the Hittites"
+        },
+        {
+          "civilization": "New Kingdom Egypt",
+          "type": "trade",
+          "details": "Major trading partner; Egyptian goods found throughout Ugarit"
+        },
+        {
+          "civilization": "Mycenaean Greece",
+          "type": "trade",
+          "details": "Mycenaean pottery abundant at Ugarit; active trade"
+        },
+        {
+          "civilization": "Phoenician Civilization",
+          "type": "cultural_inheritance",
+          "details": "Phoenician alphabet derived from Ugaritic script"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "date_format": "BCE/CE (negative years are BCE)",
+    "confidence_levels": {
+      "high": "Strong archaeological and historical evidence",
+      "medium": "Some evidence but with uncertainties",
+      "low": "Limited evidence or scholarly debate"
+    },
+    "connection_types": {
+      "trade": "Commercial and economic relationships",
+      "cultural_exchange": "Sharing of ideas, art, and technology",
+      "conquest": "Military takeover",
+      "succession": "One civilization following another",
+      "cultural_inheritance": "Adoption of predecessor's culture",
+      "cultural_absorption": "Integration of another culture's elements",
+      "conflict": "Military conflicts and warfare"
+    },
+    "last_updated": "2024-02-25"
+  }
+}
