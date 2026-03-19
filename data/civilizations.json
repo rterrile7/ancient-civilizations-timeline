@@ -423,19 +423,19 @@
       "name": "Hittite Empire",
       "period": {
         "start": {
-          "year": -1650,
+          "year": -1700,
           "confidence": "medium",
           "note": "Formation of Old Kingdom"
         },
         "end": {
-          "year": -1180,
+          "year": -1178,
           "confidence": "high",
-          "note": "Collapse of empire"
+          "note": "Collapse of empire following Bronze Age Collapse"
         }
       },
       "location": {
         "region": "Anatolia",
-        "modern": "Turkey"
+        "modern": "Turkey, Syria, Lebanon"
       },
       "key_developments": [
         {
@@ -445,25 +445,41 @@
           "significance": "End of Old Babylonian Empire"
         },
         {
-          "year": -1500,
+          "year": -1258,
+          "confidence": "high",
+          "event": "Treaty of Kadesh",
+          "significance": "Earliest known surviving peace treaty, signed with Egypt"
+        },
+        {
+          "year": -1350,
           "confidence": "medium",
-          "event": "Iron working technology",
-          "significance": "Early adoption of iron weapons"
+          "event": "Constitutional Monarchy",
+          "significance": "Early development of shared governance with the Pankus"
         }
       ],
       "connections": [
         {
-          "civilization": "Babylonian Empire",
+          "civilization": "Babylonian Empire (Old)",
           "type": "conquest",
           "details": "Conquered and sacked Babylon"
         },
         {
-          "civilization": "Minoan Civilization",
-          "type": "trade",
-          "details": "Trade routes through Anatolia"
+          "civilization": "New Kingdom Egypt",
+          "type": "conflict",
+          "details": "Fought the Battle of Kadesh; later signed the first peace treaty"
+        },
+        {
+          "civilization": "Middle Assyrian Empire",
+          "type": "conflict",
+          "details": "Rivalry for control of Northern Mesopotamia"
+        },
+        {
+          "civilization": "Sea Peoples",
+          "type": "conflict",
+          "details": "Attacks by Sea Peoples contributed to final collapse"
         }
       ],
-      "region": "Anatolia & Persia"
+      "region": "Europe & Mediterranean"
     },
     {
       "name": "Kingdom of Kush",
