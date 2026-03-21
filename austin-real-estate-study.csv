@@ -1,0 +1,18 @@
+# Austin Buy vs. Rent Comparison: 1-5 Year Horizon
+# Location Focus: Near 2500 Longview St, Austin TX (78705)
+# Scenario: $1.3M Cash Purchase vs. Comparable Rental
+
+Year,Buy: Home Value,Buy: Cumulative Taxes/Maint/Ins,Buy: Selling Costs (8%),Buy: Net Equity,Rent: Cash Principal + Int (5%),Rent: Cumulative Rent,Rent: Net Liquidity,Winner,Gap
+0,$1300000,$0,$0,$1300000,$1300000,$0,$1300000,Tie,$0
+1,$1326000,$45500,$106080,$1174420,$1365000,$54000,$1311000,Rent,"-$136,580"
+2,$1379040,$92810,$110323,$1175907,$1433250,$109620,$1323630,Rent,"-$147,723"
+3,$1447992,$142485,$115839,$1189668,$1504913,$168001,$1336912,Rent,"-$147,244"
+4,$1520392,$194651,$121631,$1204110,$1580158,$229301,$1350857,Rent,"-$146,747"
+5,$1596411,$249439,$127713,$1219259,$1659166,$293666,$1365500,Rent,"-$146,241"
+
+# Assumptions:
+# 1. Buy Appreciation: Yr1: 2%, Yr2: 4%, Yr3: 5%, Yr4: 5%, Yr5: 5% (Post-correction recovery).
+# 2. Tax/Maint/Ins: ~3.5% of value annually ($24k Tax + $13k Maint + $8k Ins).
+# 3. Rent: $4,500/mo base with 3% annual increase.
+# 4. Investment Return: 5% annual yield on unspent cash principal.
+# 5. Selling Costs: 8% (Commissions/Title/Fees).
