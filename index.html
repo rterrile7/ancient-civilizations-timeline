@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Civilizations Timeline</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ancient Civilizations Timeline</h1>
+            <div class="controls">
+                <button id="zoom-in">🔍 Zoom In</button>
+                <button id="zoom-reset">Reset View</button>
+                <button id="zoom-out">🔍 Zoom Out</button>
+                <span class="zoom-hint">Ctrl+scroll to zoom</span>
+            </div>
+        </div>
+
+        <div class="timeline-container">
+            <div class="names-column"></div>
+            <div class="timeline-scroll">
+                <div class="timeline-content"></div>
+            </div>
+        </div>
+
+        <div id="legend">
+            <div class="legend-section">
+                <h3>Regions</h3>
+                <div id="region-legend"></div>
+            </div>
+            <div class="legend-section">
+                <h3>Date Confidence</h3>
+                <div id="confidence-legend"></div>
+            </div>
+            <div class="legend-section">
+                <h3>Connections</h3>
+                <div id="connection-legend"></div>
+            </div>
+        </div>
+
+        <div id="details-panel"></div>
+    </div>
+    <script src="js/timeline.js"></script>
+    <!-- © 2026 Dr. Richard J. Terrile - Ancient Civilizations Timeline. All rights reserved. -->
+</body>
+</html>

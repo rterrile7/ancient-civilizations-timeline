@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline Test</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .civilization-bar { fill: #2ecc71; }
+        .connection { fill: none; stroke: #3498db; }
+    </style>
+</head>
+<body>
+    <div id="timeline"></div>
+    <script>
+        d3.json('data/civilizations.json').then(data => {
+            const svg = d3.select("#timeline")
+                .append("svg")
+                .attr("width", 1000)
+                .attr("height", 600);
+            
+            svg.selectAll("rect")
+                .data(data.civilizations)
+                .enter()
+                .append("rect")
+                .attr("class", "civilization-bar")
+                .attr("x", 100)
+                .attr("y", (d, i) => i * 30)
+                .attr("width", 200)
+                .attr("height", 20);
+
+            console.log("Data loaded:", data.civilizations.length, "civilizations");
+        }).catch(error => {
+            console.error("Error loading data:", error);
+        });
+    </script>
+</body>
+</html>
