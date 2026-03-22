@@ -62,7 +62,7 @@ d3.json('data/civilizations.json').then(data => {
 
     const timeExtent = d3.extent(allCivs.flatMap(c => [c.period.start.year, c.period.end.year]));
     const totalYears = timeExtent[1] - timeExtent[0];
-    const basePxPerYear = 0.18;
+    const basePxPerYear = 0.08;
     let currentPxPerYear = basePxPerYear;
 
     function formatYear(y) {
