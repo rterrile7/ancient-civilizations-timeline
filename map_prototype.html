@@ -12,6 +12,7 @@
         .water { fill: #aadaff; }
         .site-point { fill: #e74c3c; stroke: #fff; stroke-width: 1px; transition: r 0.2s; }
         .site-point:hover { r: 8px; fill: #c0392b; }
+        .empire-blob { stroke-width: 1px; transition: opacity 0.3s; pointer-events: none; }
         #time-slider-container { width: 800px; margin: 20px auto; text-align: center; }
         #current-year { font-size: 24px; font-weight: bold; color: #333; }
         .tooltip { position: absolute; padding: 10px; background: rgba(0,0,0,0.8); color: white; border-radius: 4px; pointer-events: none; font-size: 12px; display: none; }
@@ -49,8 +50,9 @@ svg.append("rect").attr("width", width).attr("height", height).attr("class", "wa
 
 Promise.all([
     d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-    d3.json("data/mediterranean_map.json")
-]).then(([world, data]) => {
+    d3.json("data/mediterranean_map.json"),
+    d3.json("data/empire_blobs.json")
+]).then(([world, data, blobs]) => {
     
     svg.append("g")
         .selectAll("path")
@@ -58,6 +60,16 @@ Promise.all([
         .enter().append("path")
         .attr("d", path)
         .attr("class", "land");
+
+    const empireBlobs = svg.append("g")
+        .selectAll("path")
+        .data(blobs.features)
+        .enter().append("path")
+        .attr("d", path)
+        .attr("class", "empire-blob")
+        .attr("fill", d => d.properties.color)
+        .attr("stroke", d => d.properties.color)
+        .attr("opacity", 0);
 
     const points = svg.append("g")
         .selectAll("circle")
@@ -78,6 +90,8 @@ Promise.all([
     function update(year) {
         const displayYear = year < 0 ? Math.abs(year) + " BCE" : year + " CE";
         d3.select("#current-year").text(`Year: ${displayYear}`);
+
+        empireBlobs.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? 0.3 : 0);
 
         points.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? 1 : 0.1)
               .attr("pointer-events", d => (year >= d.properties.start && year <= d.properties.end) ? "all" : "none");

@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minoan Civilization",
+        "start": -3200,
+        "end": -1100,
+        "color": "#e67e22"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [23.5, 34.8], [26.5, 34.8], [26.5, 35.8], [23.5, 35.8], [23.5, 34.8]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mycenaean Greece",
+        "start": -1600,
+        "end": -1100,
+        "color": "#3498db"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [21.0, 36.5], [24.5, 36.5], [24.5, 39.5], [21.0, 39.5], [21.0, 36.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hittite Empire",
+        "start": -1700,
+        "end": -1178,
+        "color": "#2ecc71"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [27.0, 37.0], [35.0, 33.0], [43.0, 37.0], [41.0, 41.0], [34.0, 42.0], [27.0, 40.0], [27.0, 37.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roman Empire",
+        "start": -27,
+        "end": 476,
+        "color": "#e74c3c"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-10.0, 35.0], [40.0, 30.0], [45.0, 45.0], [15.0, 55.0], [-5.0, 50.0], [-10.0, 35.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carthaginian Empire",
+        "start": -814,
+        "end": -146,
+        "color": "#9b59b6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-5.0, 35.0], [15.0, 30.0], [15.0, 38.0], [5.0, 42.0], [-5.0, 40.0], [-5.0, 35.0]
+        ]]
+      }
+    }
+  ]
+}
