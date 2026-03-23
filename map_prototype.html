@@ -12,7 +12,8 @@
         .water { fill: #aadaff; }
         .site-point { fill: #e74c3c; stroke: #fff; stroke-width: 1px; transition: r 0.2s; }
         .site-point:hover { r: 8px; fill: #c0392b; }
-        .empire-blob { stroke-width: 1px; transition: opacity 0.3s; pointer-events: none; }
+        .empire-blob { stroke-width: 1px; transition: opacity 0.3s; cursor: help; }
+        .conflict-zone { stroke-dasharray: 4,2; stroke-width: 2px; }
         #time-slider-container { width: 800px; margin: 20px auto; text-align: center; }
         #current-year { font-size: 24px; font-weight: bold; color: #333; }
         .tooltip { position: absolute; padding: 10px; background: rgba(0,0,0,0.8); color: white; border-radius: 4px; pointer-events: none; font-size: 12px; display: none; }
@@ -66,10 +67,17 @@ Promise.all([
         .data(blobs.features)
         .enter().append("path")
         .attr("d", path)
-        .attr("class", "empire-blob")
+        .attr("class", d => d.properties.conflict ? "empire-blob conflict-zone" : "empire-blob")
         .attr("fill", d => d.properties.color)
         .attr("stroke", d => d.properties.color)
-        .attr("opacity", 0);
+        .attr("opacity", 0)
+        .on("mouseover", (event, d) => {
+            tooltip.style("display", "block").html(`<strong>${d.properties.name}</strong><br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
+        })
+        .on("mousemove", (event) => {
+            tooltip.style("left", (event.pageX + 10) + "px").style("top", (event.pageY - 10) + "px");
+        })
+        .on("mouseout", () => tooltip.style("display", "none"));
 
     const points = svg.append("g")
         .selectAll("circle")
@@ -83,7 +91,7 @@ Promise.all([
             tooltip.style("display", "block").html(`<strong>${d.properties.name}</strong><br>Site: ${d.properties.site}<br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
         })
         .on("mousemove", (event) => {
-            tooltip.style("left", (event.pageX - 350) + "px").style("top", (event.pageY - 150) + "px");
+            tooltip.style("left", (event.pageX + 10) + "px").style("top", (event.pageY - 10) + "px");
         })
         .on("mouseout", () => tooltip.style("display", "none"));
 
@@ -91,7 +99,8 @@ Promise.all([
         const displayYear = year < 0 ? Math.abs(year) + " BCE" : year + " CE";
         d3.select("#current-year").text(`Year: ${displayYear}`);
 
-        empireBlobs.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? 0.3 : 0);
+        empireBlobs.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? (d.properties.conflict ? 0.6 : 0.3) : 0)
+                   .style("pointer-events", d => (year >= d.properties.start && year <= d.properties.end) ? "all" : "none");
 
         points.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? 1 : 0.1)
               .attr("pointer-events", d => (year >= d.properties.start && year <= d.properties.end) ? "all" : "none");
