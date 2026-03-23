@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minoan Civilization",
+        "site": "Knossos",
+        "start": -3200,
+        "end": -1100
+      },
+      "geometry": { "type": "Point", "coordinates": [25.1627, 35.2979] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mycenaean Greece",
+        "site": "Mycenae",
+        "start": -1600,
+        "end": -1100
+      },
+      "geometry": { "type": "Point", "coordinates": [22.7561, 37.7308] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hittite Empire",
+        "site": "Hattusa",
+        "start": -1700,
+        "end": -1178
+      },
+      "geometry": { "type": "Point", "coordinates": [34.6153, 40.0197] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenician Civilization",
+        "site": "Tyre",
+        "start": -1500,
+        "end": -300
+      },
+      "geometry": { "type": "Point", "coordinates": [35.2035, 33.2720] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carthaginian Empire",
+        "site": "Carthage",
+        "start": -814,
+        "end": -146
+      },
+      "geometry": { "type": "Point", "coordinates": [10.3316, 36.8611] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roman Empire",
+        "site": "Rome",
+        "start": -27,
+        "end": 476
+      },
+      "geometry": { "type": "Point", "coordinates": [12.4964, 41.9028] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Classical Greece",
+        "site": "Athens",
+        "start": -800,
+        "end": -323
+      },
+      "geometry": { "type": "Point", "coordinates": [23.7275, 37.9838] }
+    }
+  ]
+}

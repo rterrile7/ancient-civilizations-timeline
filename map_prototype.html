@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mediterranean Map Prototype</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; }
+        #map-container { position: relative; width: 1000px; margin: 20px auto; background: white; border: 1px solid #ccc; border-radius: 8px; }
+        .land { fill: #e0e0e0; stroke: #fff; stroke-width: 0.5px; }
+        .water { fill: #aadaff; }
+        .site-point { fill: #e74c3c; stroke: #fff; stroke-width: 1px; transition: r 0.2s; }
+        .site-point:hover { r: 8px; fill: #c0392b; }
+        #time-slider-container { width: 800px; margin: 20px auto; text-align: center; }
+        #current-year { font-size: 24px; font-weight: bold; color: #333; }
+        .tooltip { position: absolute; padding: 10px; background: rgba(0,0,0,0.8); color: white; border-radius: 4px; pointer-events: none; font-size: 12px; display: none; }
+        #controls { width: 1000px; margin: 10px auto; display: flex; gap: 20px; justify-content: center; }
+    </style>
+</head>
+<body>
+
+<div id="controls">
+    <div id="current-year">Year: 1000 BCE</div>
+</div>
+
+<div id="time-slider-container">
+    <input type="range" id="time-slider" min="-3200" max="1100" value="-1000" style="width: 100%;">
+    <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666;">
+        <span>3200 BCE</span>
+        <span>0</span>
+        <span>1100 CE</span>
+    </div>
+</div>
+
+<div id="map-container">
+    <div class="tooltip" id="tooltip"></div>
+</div>
+
+<script>
+const width = 1000, height = 600;
+const svg = d3.select("#map-container").append("svg").attr("width", width).attr("height", height);
+const projection = d3.geoMercator().center([20, 38]).scale(1200).translate([width / 2, height / 2]);
+const path = d3.geoPath().projection(projection);
+const tooltip = d3.select("#tooltip");
+
+// Draw water
+svg.append("rect").attr("width", width).attr("height", height).attr("class", "water");
+
+Promise.all([
+    d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
+    d3.json("data/mediterranean_map.json")
+]).then(([world, data]) => {
+    
+    svg.append("g")
+        .selectAll("path")
+        .data(topojson.feature(world, world.objects.countries).features)
+        .enter().append("path")
+        .attr("d", path)
+        .attr("class", "land");
+
+    const points = svg.append("g")
+        .selectAll("circle")
+        .data(data.features)
+        .enter().append("circle")
+        .attr("class", "site-point")
+        .attr("cx", d => projection(d.geometry.coordinates)[0])
+        .attr("cy", d => projection(d.geometry.coordinates)[1])
+        .attr("r", 5)
+        .on("mouseover", (event, d) => {
+            tooltip.style("display", "block").html(`<strong>${d.properties.name}</strong><br>Site: ${d.properties.site}<br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
+        })
+        .on("mousemove", (event) => {
+            tooltip.style("left", (event.pageX - 350) + "px").style("top", (event.pageY - 150) + "px");
+        })
+        .on("mouseout", () => tooltip.style("display", "none"));
+
+    function update(year) {
+        const displayYear = year < 0 ? Math.abs(year) + " BCE" : year + " CE";
+        d3.select("#current-year").text(`Year: ${displayYear}`);
+
+        points.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? 1 : 0.1)
+              .attr("pointer-events", d => (year >= d.properties.start && year <= d.properties.end) ? "all" : "none");
+    }
+
+    d3.select("#time-slider").on("input", function() {
+        update(+this.value);
+    });
+
+    update(-1000);
+});
+</script>
+
+<p style="text-align: center; color: #666; font-size: 14px;">
+    <a href="index.html" style="color: #3498db; text-decoration: none;">← Back to Timeline</a>
+</p>
+
+</body>
+</html>
