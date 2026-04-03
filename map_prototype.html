@@ -6,28 +6,48 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
     <style>
-        body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; }
-        #map-container { position: relative; width: 1000px; margin: 20px auto; background: white; border: 1px solid #ccc; border-radius: 8px; }
-        .land { fill: #e0e0e0; stroke: #fff; stroke-width: 0.5px; }
-        .water { fill: #aadaff; }
-        .site-point { fill: #e74c3c; stroke: #fff; stroke-width: 1px; transition: r 0.2s; }
-        .site-point:hover { r: 8px; fill: #c0392b; }
-        .empire-blob { stroke-width: 1px; transition: opacity 0.3s; cursor: help; }
+        body { font-family: Arial, sans-serif; background: #e0e0e0; margin: 0; }
+        #map-container { position: relative; width: 1000px; margin: 20px auto; background: white; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; }
+        .land { fill: #fcfcfc; stroke: #333; stroke-width: 0.5px; }
+        .water { fill: #eef7ff; }
+        .site-point { fill: #333; stroke: #fff; stroke-width: 1px; transition: r 0.2s; }
+        .site-point:hover { r: 8px; fill: #000; }
+        .empire-blob { stroke-width: 0.5px; transition: opacity 0.3s; cursor: help; }
         .conflict-zone { stroke-dasharray: 4,2; stroke-width: 2px; }
         #time-slider-container { width: 800px; margin: 20px auto; text-align: center; }
         #current-year { font-size: 24px; font-weight: bold; color: #333; }
-        .tooltip { position: absolute; padding: 10px; background: rgba(0,0,0,0.8); color: white; border-radius: 4px; pointer-events: none; font-size: 12px; display: none; }
+        .tooltip { 
+            position: absolute; 
+            padding: 10px; 
+            background: rgba(0,0,0,0.85); 
+            color: white; 
+            border-radius: 4px; 
+            pointer-events: none; 
+            font-size: 12px; 
+            display: none; 
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            max-width: 200px;
+        }
         #controls { width: 1000px; margin: 10px auto; display: flex; gap: 20px; justify-content: center; }
     </style>
 </head>
 <body>
 
+<svg style="height: 0; width: 0; position: absolute;">
+  <defs>
+    <pattern id="conflict-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+      <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" style="stroke:#c0392b; stroke-width:1" />
+    </pattern>
+  </defs>
+</svg>
+
 <div id="controls">
-    <div id="current-year">Year: 1000 BCE</div>
+    <div id="current-year">Year: 0 CE</div>
 </div>
 
 <div id="time-slider-container">
-    <input type="range" id="time-slider" min="-3200" max="1100" value="-1000" style="width: 100%;">
+    <input type="range" id="time-slider" min="-3200" max="1100" value="0" style="width: 100%;">
     <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666;">
         <span>3200 BCE</span>
         <span>0</span>
@@ -46,15 +66,16 @@ const projection = d3.geoMercator().center([20, 38]).scale(1200).translate([widt
 const path = d3.geoPath().projection(projection);
 const tooltip = d3.select("#tooltip");
 
-// Draw water
-svg.append("rect").attr("width", width).attr("height", height).attr("class", "water");
-
 Promise.all([
     d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-    d3.json("data/mediterranean_map.json"),
-    d3.json("data/empire_blobs.json")
+    d3.json("data/mediterranean_map.json"), // Site points data
+    d3.json("data/empire_blobs.json")      // Blob data
 ]).then(([world, data, blobs]) => {
     
+    // Draw water
+    svg.append("rect").attr("width", width).attr("height", height).attr("class", "water");
+
+    // Draw land
     svg.append("g")
         .selectAll("path")
         .data(topojson.feature(world, world.objects.countries).features)
@@ -62,6 +83,7 @@ Promise.all([
         .attr("d", path)
         .attr("class", "land");
 
+    // Draw empire blobs (drawn AFTER land/water for correct layering)
     const empireBlobs = svg.append("g")
         .selectAll("path")
         .data(blobs.features)
@@ -70,15 +92,29 @@ Promise.all([
         .attr("class", d => d.properties.conflict ? "empire-blob conflict-zone" : "empire-blob")
         .attr("fill", d => d.properties.color)
         .attr("stroke", d => d.properties.color)
-        .attr("opacity", 0)
+        .attr("opacity", 0) // Start invisible
         .on("mouseover", (event, d) => {
-            tooltip.style("display", "block").html(`<strong>${d.properties.name}</strong><br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
+            tooltip.style("display", "block")
+                   .html(`<strong>${d.properties.name}</strong><br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
         })
         .on("mousemove", (event) => {
-            tooltip.style("left", (event.pageX + 10) + "px").style("top", (event.pageY - 10) + "px");
+            const containerRect = document.getElementById("map-container").getBoundingClientRect();
+            const mouseX = event.clientX - containerRect.left;
+            const mouseY = event.clientY - containerRect.top;
+            
+            let left = mouseX + 15;
+            let top = mouseY + 15;
+
+            // Flip tooltip if near right edge
+            if (left + 150 > width) left = mouseX - 165; // Adjust left if too close to right edge
+            // Flip tooltip if near bottom edge
+            if (top + 60 > height) top = mouseY - 75;    // Adjust top if too close to bottom edge
+
+            tooltip.style("left", left + "px").style("top", top + "px");
         })
         .on("mouseout", () => tooltip.style("display", "none"));
 
+    // Draw site points (drawn AFTER blobs for visibility over empires)
     const points = svg.append("g")
         .selectAll("circle")
         .data(data.features)
@@ -86,12 +122,23 @@ Promise.all([
         .attr("class", "site-point")
         .attr("cx", d => projection(d.geometry.coordinates)[0])
         .attr("cy", d => projection(d.geometry.coordinates)[1])
-        .attr("r", 5)
+        .attr("r", 5) // Radius of the point
         .on("mouseover", (event, d) => {
-            tooltip.style("display", "block").html(`<strong>${d.properties.name}</strong><br>Site: ${d.properties.site}<br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
+            tooltip.style("display", "block")
+                   .html(`<strong>${d.properties.name}</strong><br>Site: ${d.properties.site}<br>Period: ${Math.abs(d.properties.start)} BCE - ${d.properties.end < 0 ? Math.abs(d.properties.end) + ' BCE' : d.properties.end + ' CE'}`);
         })
         .on("mousemove", (event) => {
-            tooltip.style("left", (event.pageX + 10) + "px").style("top", (event.pageY - 10) + "px");
+            const containerRect = document.getElementById("map-container").getBoundingClientRect();
+            const mouseX = event.clientX - containerRect.left;
+            const mouseY = event.clientY - containerRect.top;
+            
+            let left = mouseX + 15;
+            let top = mouseY + 15;
+
+            if (left + 150 > width) left = mouseX - 165;
+            if (top + 60 > height) top = mouseY - 75;
+
+            tooltip.style("left", left + "px").style("top", top + "px");
         })
         .on("mouseout", () => tooltip.style("display", "none"));
 
@@ -99,9 +146,11 @@ Promise.all([
         const displayYear = year < 0 ? Math.abs(year) + " BCE" : year + " CE";
         d3.select("#current-year").text(`Year: ${displayYear}`);
 
-        empireBlobs.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? (d.properties.conflict ? 0.6 : 0.3) : 0)
+        // Update blob opacity based on current year
+        empireBlobs.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? (d.properties.conflict ? 0.7 : 0.35) : 0)
                    .style("pointer-events", d => (year >= d.properties.start && year <= d.properties.end) ? "all" : "none");
 
+        // Update point opacity based on current year
         points.attr("opacity", d => (year >= d.properties.start && year <= d.properties.end) ? 1 : 0.1)
               .attr("pointer-events", d => (year >= d.properties.start && year <= d.properties.end) ? "all" : "none");
     }
@@ -110,7 +159,7 @@ Promise.all([
         update(+this.value);
     });
 
-    update(-1000);
+    update(0); // Default to 0 CE for initial testing
 });
 </script>
 
