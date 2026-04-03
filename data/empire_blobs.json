@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": { "name": "Minoan Civilization", "start": -3200, "end": -1100, "color": "#e67e22" },
-      "geometry": { "type": "Polygon", "coordinates": [[[23.5, 34.8], [26.5, 34.8], [26.5, 35.8], [23.5, 35.8], [23.5, 34.8]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[23.5, 34.8], [23.5, 35.8], [26.5, 35.8], [26.5, 34.8], [23.5, 34.8]]] }
     },
     {
       "type": "Feature",
