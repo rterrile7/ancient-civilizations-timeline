@@ -8,13 +8,18 @@
     },
     {
       "type": "Feature",
+      "properties": { "name": "Mycenaean Greece", "start": -1600, "end": -1100, "color": "#3498db" },
+      "geometry": { "type": "Polygon", "coordinates": [[[21.0, 36.5], [21.0, 39.5], [24.5, 39.5], [24.5, 36.5], [21.0, 36.5]]] }
+    },
+    {
+      "type": "Feature",
       "properties": { "name": "Hittite Empire", "start": -1700, "end": -1178, "color": "#2ecc71" },
-      "geometry": { "type": "Polygon", "coordinates": [[[27.0, 37.0], [35.0, 33.0], [43.0, 37.0], [41.0, 41.0], [34.0, 42.0], [27.0, 40.0], [27.0, 37.0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[27.0, 37.0], [27.0, 40.0], [34.0, 42.0], [41.0, 41.0], [43.0, 37.0], [35.0, 33.0], [27.0, 37.0]]] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Egyptian New Kingdom", "start": -1550, "end": -1070, "color": "#f1c40f" },
-      "geometry": { "type": "Polygon", "coordinates": [[[30.0, 18.0], [35.0, 18.0], [37.0, 28.0], [38.0, 35.0], [34.0, 33.0], [25.0, 28.0], [30.0, 18.0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[30.0, 18.0], [25.0, 28.0], [34.0, 33.0], [38.0, 35.0], [37.0, 28.0], [35.0, 18.0], [30.0, 18.0]]] }
     },
     {
       "type": "Feature",
@@ -23,13 +28,28 @@
     },
     {
       "type": "Feature",
+      "properties": { "name": "Early Roman Republic (Italy)", "start": -500, "end": -273, "color": "#e74c3c" },
+      "geometry": { "type": "Polygon", "coordinates": [[[10.0, 37.5], [7.0, 44.0], [12.0, 46.0], [16.0, 42.0], [18.0, 39.5], [10.0, 37.5]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Roman Republic Expansion", "start": -272, "end": -28, "color": "#e74c3c" },
+      "geometry": { "type": "Polygon", "coordinates": [[[-5.0, 36.0], [-10.0, 45.0], [0.0, 50.0], [20.0, 50.0], [42.0, 42.0], [40.0, 30.0], [15.0, 30.0], [-5.0, 36.0]]] }
+    },
+    {
+      "type": "Feature",
       "properties": { "name": "Roman Empire Peak", "start": -27, "end": 476, "color": "#e74c3c" },
       "geometry": { "type": "Polygon", "coordinates": [[[-10.0, 35.0], [-5.0, 50.0], [15.0, 55.0], [45.0, 45.0], [40.0, 30.0], [-10.0, 35.0]]] }
     },
     {
       "type": "Feature",
+      "properties": { "name": "Carthaginian Empire", "start": -814, "end": -146, "color": "#9b59b6" },
+      "geometry": { "type": "Polygon", "coordinates": [[[-5.0, 35.0], [-5.0, 40.0], [5.0, 42.0], [15.0, 38.0], [15.0, 30.0], [-5.0, 35.0]]] }
+    },
+    {
+      "type": "Feature",
       "properties": { "name": "Punic Wars Conflict", "start": -264, "end": -146, "color": "url(#conflict-hatch)", "conflict": true },
-      "geometry": { "type": "Polygon", "coordinates": [[[7.0, 36.0], [15.0, 35.0], [16.0, 41.0], [8.0, 43.0], [7.0, 36.0]]] }
+      "geometry": { "type": "Polygon", "coordinates": [[[7.0, 36.0], [8.0, 43.0], [16.0, 41.0], [15.0, 35.0], [7.0, 36.0]]] }
     }
   ]
 }
